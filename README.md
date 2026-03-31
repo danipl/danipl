@@ -42,12 +42,13 @@ myself how things really work, uncovering the lessons that reading books or gett
 
 ## ⭐⭐⭐⭐⭐ ProgramacionJ2EE.com (Blogsite) ⭐⭐⭐⭐⭐
 
-| Key              | Value                           |
-|------------------|---------------------------------|
-| Tech Stack       | Wordpress blogsite              |
-| Status           | Archived - no longer maintained |
-| Years of Service | Roughly 7 years                 |
-| Age              | 24 years old                    |
+| Key                | Value              |
+|--------------------|--------------------|
+| Tech Stack         | Wordpress blogsite |
+| Status             | Decommissioned     |
+| Personal Relevance | ⭐⭐⭐⭐⭐              |
+| Years of Service   | Roughly 7 years    |
+| Age                | 24 years old       |
 
 Personally, I consider the decommissioning of `programacionj2ee.com` my biggest mistake. It positioned itself
 organically at Google Rank 1 for Spring Framework searches in Spanish.
@@ -60,14 +61,16 @@ Beyond that, `programacion.j2ee` was noticed by prominent colleagues in my local
 board as part of their team, immersing me in the corporate world by the first time.
 
 But well, let's Google Gemini explain what it was.
+
 ```markdown
 > Ey Gemini!, what it was ProgramacionJ2EE.com?
 
-ProgramacionJ2EE.com was a prominent Spanish-language educational portal dedicated to Java Enterprise Edition (J2EE) 
-development. During the mid-2000s and early 2010s, it served as a central hub for Hispanic developers to find structured 
+ProgramacionJ2EE.com was a prominent Spanish-language educational portal dedicated to Java Enterprise Edition (J2EE)
+development. During the mid-2000s and early 2010s, it served as a central hub for Hispanic developers to find structured
 tutorials, forums, and technical articles.
 
-The site was particularly well-known for its "Pildoras Java" (Java Pills) and comprehensive courses that covered the core 
+The site was particularly well-known for its "Pildoras Java" (Java Pills) and comprehensive courses that covered the
+core
 pillars of enterprise Java. It focused on teaching technologies that were standard at the time, such as:
 
 - Servlets and JSPs: The foundation of Java web development.
@@ -75,18 +78,20 @@ pillars of enterprise Java. It focused on teaching technologies that were standa
 - Spring and Hibernate: Popular frameworks for MVC architecture and database mapping.
 - Application Servers: Tutorials on configuring environments like JBoss (now WildFly), GlassFish, or Tomcat.
 
-In an era before Stack Overflow and GitHub dominated the landscape, this site provided a localized community where 
-developers could troubleshoot specific errors in Spanish. The site's manual-style content became less aligned 
-with modern DevOps and microservices trends. While the original domain is no longer the active powerhouse it once was, 
-it remains a nostalgic reference point for an entire generation of programmers who learned backend web development in 
+In an era before Stack Overflow and GitHub dominated the landscape, this site provided a localized community where
+developers could troubleshoot specific errors in Spanish. The site's manual-style content became less aligned
+with modern DevOps and microservices trends. While the original domain is no longer the active powerhouse it once was,
+it remains a nostalgic reference point for an entire generation of programmers who learned backend web development in
 the early 2000s.
 ```
 
 Nor ChatGPT.
+
 ```markdown
 > Ey ChatGPT!, what it was ProgramacionJ2EE.com?
 
-ProgramacionJ2EE.com was a Spanish-language website focused on teaching Java Enterprise Edition (J2EE / later Java EE, now Jakarta EE) development.
+ProgramacionJ2EE.com was a Spanish-language website focused on teaching Java Enterprise Edition (J2EE / later Java EE,
+now Jakarta EE) development.
 
 **What it was about**
 
@@ -115,18 +120,21 @@ The site is no longer active (as far as public access goes). Like many early 200
 
 **Its legacy**
 
-For many Spanish-speaking developers, it was one of the first entry points into enterprise Java, similar to how 
+For many Spanish-speaking developers, it was one of the first entry points into enterprise Java, similar to how
 sites like those serve learners today:
+
 - Baeldung
 - Stack Overflow
 ```
 
 ## Yizz Framework (OOO PHP Framework)
 
-| Key    | Value                           |
-|--------|---------------------------------|
-| Status | Archived - no longer maintained |
-| Age    | 27 years old                    |
+| Key                | Value                           |
+|--------------------|---------------------------------|
+| Tech Stack         | PHP 5, HTML & CSS               |
+| Status             | Archived - no longer maintained |
+| Personal Relevance | ⭐⭐                              |
+| Age                | 27 years old                    |
 
 It was a homemade OOO PHP framework that I built to learn and experiment with object-oriented programming in PHP 5.
 
@@ -134,11 +142,12 @@ Inspired to achieve some Spring Framework 3.5.
 
 ## Destrozatumente.com (Web-application game)
 
-| Key        | Value                                            |
-|------------|--------------------------------------------------|
-| Tech Stack | Java 4 (SDK 1.4), Spring Framework 2.5, JForum 3 |
-| Status     | Archived - no longer maintained                  |
-| Age        | 24 years old                                     |
+| Key                | Value                                            |
+|--------------------|--------------------------------------------------|
+| Tech Stack         | Java 4 (SDK 1.4), Spring Framework 2.5, JForum 3 |
+| Status             | Archived - no longer maintained                  |
+| Personal Relevance | ⭐⭐                                               |
+| Age                | 24 years old                                     |
 
 An online chained guessing game. It was my first "business" attempt and, more importantly, my first Spring Framework
 project.
