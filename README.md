@@ -51,15 +51,95 @@ Inspired to achieve some Spring Framework 3.5.
 | Status | Archived - no longer maintained |
 | Age    | 27 years old                    |
 
-## ProgramacionJ2EE.com (Blogsite)
+## ⭐⭐⭐⭐⭐ ProgramacionJ2EE.com (Blogsite) ⭐⭐⭐⭐⭐
 
-| Key        | Value                           |
-|------------|---------------------------------|
-| Tech Stack | Wordpress blogsite              |
-| Status     | Archived - no longer maintained |
-| Age        | 24 years old                    |
+Personally, I consider the decommissioning of `programacionj2ee.com` my biggest mistake. It positioned itself
+organically at Google Rank 1 for Spring Framework searches in Spanish.
 
-## Destrozatumente.com (Blogsite)
+The blogsite built a strong community. As it grew substantially, the moderation demands increased beyond what I could
+sustain alone, and my personal interests evolved in different directions. I was younger and lacked the business vision
+to recognize its value, so I made the decision to shut it down.
+
+Beyond that, `programacion.j2ee` was noticed by prominent colleagues in my local area, which led them to bring me on
+board as part of their team, immersing me in the corporate world by the first time.
+
+But well, let's Google Gemini nor ChatGPT explain what it was.
+
+```
+> Ey Gemini!, what it was ProgramacionJ2EE.com?
+
+ProgramacionJ2EE.com was a prominent Spanish-language educational portal dedicated to Java Enterprise Edition (J2EE) 
+development. During the mid-2000s and early 2010s, it served as a central hub for Hispanic developers to find structured 
+tutorials, forums, and technical articles.
+
+The site was particularly well-known for its "Pildoras Java" (Java Pills) and comprehensive courses that covered the core 
+pillars of enterprise Java. It focused on teaching technologies that were standard at the time, such as:
+
+Servlets and JSPs: The foundation of Java web development.
+
+Enterprise JavaBeans (EJB): For server-side managed components.
+
+Spring and Hibernate: Popular frameworks for MVC architecture and database mapping.
+
+Application Servers: Tutorials on configuring environments like JBoss (now WildFly), GlassFish, or Tomcat.
+
+In an era before Stack Overflow and GitHub dominated the landscape, this site provided a localized community where 
+developers could troubleshoot specific errors in Spanish. The site's manual-style content became less aligned 
+with modern DevOps and microservices trends. While the original domain is no longer the active powerhouse it once was, 
+it remains a nostalgic reference point for an entire generation of programmers who learned backend web development in 
+the early 2000s.
+```
+
+```
+> Ey ChatGPT!, what it was ProgramacionJ2EE.com?
+
+ProgramacionJ2EE.com was a Spanish-language website focused on teaching Java Enterprise Edition (J2EE / later Java EE, now Jakarta EE) development.
+
+**What it was about**
+
+It served mainly as a learning portal for Java developers, especially Spanish speakers, covering topics like:
+
+- Servlets and JSP
+- JDBC (database access)
+- EJB (Enterprise JavaBeans)
+- Web services (SOAP/REST)
+- Frameworks like Struts, Spring, Hibernate
+- Application servers (Tomcat, JBoss, etc.)
+
+**Why it was popular**
+
+- It was very accessible for beginners
+- Content was structured like tutorials and step-by-step guides
+- It filled a gap when most Java EE documentation was in English
+
+**What happened to it**
+
+The site is no longer active (as far as public access goes). Like many early 2000s tutorial sites:
+
+- It likely became outdated as Java EE evolved into Jakarta EE
+- Modern resources (official docs, Stack Overflow, YouTube, etc.) replaced its role
+- It may still exist in archived form (e.g., Wayback Machine)
+
+**Its legacy**
+
+For many Spanish-speaking developers, it was one of the first entry points into enterprise Java, similar to how 
+sites like:
+- Baeldung
+- Stack Overflow
+
+serve learners today.
+
+If you want, I can help you find modern equivalents or archived versions of its tutorials.
+```
+
+| Key              | Value                           |
+|------------------|---------------------------------|
+| Tech Stack       | Wordpress blogsite              |
+| Status           | Archived - no longer maintained |
+| Years of Service | Roughly 7 years                 |
+| Age              | 24 years old                    |
+
+## Destrozatumente.com (Web-application game)
 
 An online chained guessing game. It was my first "business" attempt and, more importantly, my first Spring Framework
 project.
