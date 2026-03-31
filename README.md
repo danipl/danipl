@@ -38,20 +38,16 @@ This path, driven by an unbeatable instinct of curiosity, comes with its own con
 bring me a kind of anxiety about losing time. I need to get my hands dirty and get scars on my skin to figure out by
 myself how things really work, uncovering the lessons that reading books or getting certifications just don't expose.
 
-# Key Projects (Chronological)
-
-## Yizz Framework (OOO PHP Framework)
-
-It was a homemade OOO PHP framework that I built to learn and experiment with object-oriented programming in PHP 5.
-
-Inspired to achieve some Spring Framework 3.5.
-
-| Key    | Value                           |
-|--------|---------------------------------|
-| Status | Archived - no longer maintained |
-| Age    | 27 years old                    |
+# Key Projects (By Relevance)
 
 ## ⭐⭐⭐⭐⭐ ProgramacionJ2EE.com (Blogsite) ⭐⭐⭐⭐⭐
+
+| Key              | Value                           |
+|------------------|---------------------------------|
+| Tech Stack       | Wordpress blogsite              |
+| Status           | Archived - no longer maintained |
+| Years of Service | Roughly 7 years                 |
+| Age              | 24 years old                    |
 
 Personally, I consider the decommissioning of `programacionj2ee.com` my biggest mistake. It positioned itself
 organically at Google Rank 1 for Spring Framework searches in Spanish.
@@ -63,9 +59,8 @@ to recognize its value, so I made the decision to shut it down.
 Beyond that, `programacion.j2ee` was noticed by prominent colleagues in my local area, which led them to bring me on
 board as part of their team, immersing me in the corporate world by the first time.
 
-But well, let's Google Gemini nor ChatGPT explain what it was.
-
-```
+But well, let's Google Gemini explain what it was.
+```markdown
 > Ey Gemini!, what it was ProgramacionJ2EE.com?
 
 ProgramacionJ2EE.com was a prominent Spanish-language educational portal dedicated to Java Enterprise Edition (J2EE) 
@@ -75,13 +70,10 @@ tutorials, forums, and technical articles.
 The site was particularly well-known for its "Pildoras Java" (Java Pills) and comprehensive courses that covered the core 
 pillars of enterprise Java. It focused on teaching technologies that were standard at the time, such as:
 
-Servlets and JSPs: The foundation of Java web development.
-
-Enterprise JavaBeans (EJB): For server-side managed components.
-
-Spring and Hibernate: Popular frameworks for MVC architecture and database mapping.
-
-Application Servers: Tutorials on configuring environments like JBoss (now WildFly), GlassFish, or Tomcat.
+- Servlets and JSPs: The foundation of Java web development.
+- Enterprise JavaBeans (EJB): For server-side managed components.
+- Spring and Hibernate: Popular frameworks for MVC architecture and database mapping.
+- Application Servers: Tutorials on configuring environments like JBoss (now WildFly), GlassFish, or Tomcat.
 
 In an era before Stack Overflow and GitHub dominated the landscape, this site provided a localized community where 
 developers could troubleshoot specific errors in Spanish. The site's manual-style content became less aligned 
@@ -90,7 +82,8 @@ it remains a nostalgic reference point for an entire generation of programmers w
 the early 2000s.
 ```
 
-```
+Nor ChatGPT.
+```markdown
 > Ey ChatGPT!, what it was ProgramacionJ2EE.com?
 
 ProgramacionJ2EE.com was a Spanish-language website focused on teaching Java Enterprise Edition (J2EE / later Java EE, now Jakarta EE) development.
@@ -123,23 +116,29 @@ The site is no longer active (as far as public access goes). Like many early 200
 **Its legacy**
 
 For many Spanish-speaking developers, it was one of the first entry points into enterprise Java, similar to how 
-sites like:
+sites like those serve learners today:
 - Baeldung
 - Stack Overflow
-
-serve learners today.
-
-If you want, I can help you find modern equivalents or archived versions of its tutorials.
 ```
 
-| Key              | Value                           |
-|------------------|---------------------------------|
-| Tech Stack       | Wordpress blogsite              |
-| Status           | Archived - no longer maintained |
-| Years of Service | Roughly 7 years                 |
-| Age              | 24 years old                    |
+## Yizz Framework (OOO PHP Framework)
+
+| Key    | Value                           |
+|--------|---------------------------------|
+| Status | Archived - no longer maintained |
+| Age    | 27 years old                    |
+
+It was a homemade OOO PHP framework that I built to learn and experiment with object-oriented programming in PHP 5.
+
+Inspired to achieve some Spring Framework 3.5.
 
 ## Destrozatumente.com (Web-application game)
+
+| Key        | Value                                            |
+|------------|--------------------------------------------------|
+| Tech Stack | Java 4 (SDK 1.4), Spring Framework 2.5, JForum 3 |
+| Status     | Archived - no longer maintained                  |
+| Age        | 24 years old                                     |
 
 An online chained guessing game. It was my first "business" attempt and, more importantly, my first Spring Framework
 project.
@@ -149,9 +148,3 @@ It introduced Spring Framework for the first time as part of some Final Degree P
 the [University of Zaragoza](https://www.unizar.es/).
 
 The project natively integrated [JForum 3](https://github.com/rafaelsteil/jforum3) by @rafaelsteil.
-
-| Key        | Value                                            |
-|------------|--------------------------------------------------|
-| Tech Stack | Java 4 (SDK 1.4), Spring Framework 2.5, JForum 3 |
-| Status     | Archived - no longer maintained                  |
-| Age        | 24 years old                                     |
