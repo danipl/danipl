@@ -13,7 +13,9 @@ like **IriusRisk**, **Adidas**, and **New Relic**, I've evolved from designing a
 designing the platforms that power them.
 
 Today I build ecosystems that reduce cognitive load and automate the boring
-stuff—so engineering teams can focus on delivering value instead of fighting with technological friction.
+stuff, so engineering teams can focus on delivering value instead of fighting with technological friction.
+
+
 
 If I had to choose one testimonial from the thousands of interactions throughout my career, I would highlight this one
 by [Jose Maria Puyal](https://www.linkedin.com/in/josepuyal/), who was my line manager at Adidas.
