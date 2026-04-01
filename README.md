@@ -74,7 +74,7 @@ I remain deeply hands-on with technical implementation:
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Streaming-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Microservices-6DB33F?style=flat&logo=spring&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Infrastructure-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Namespace%20Setup-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-Ephemeral%20Testing-660066?style=flat)
 ![CDC](https://img.shields.io/badge/CDC-Change%20Data%20Capture-009688?style=flat)
 ![GitOps](https://img.shields.io/badge/GitOps-CI%2FCD-FF6600?style=flat)
