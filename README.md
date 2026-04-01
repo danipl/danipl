@@ -75,6 +75,7 @@ I remain deeply hands-on with technical implementation:
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Microservices-6DB33F?style=flat&logo=spring&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Infrastructure-232F3E?style=flat&logo=amazonaws&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Drools](https://img.shields.io/badge/Drools-Rules%20Engine-000000?style=flat)
 ![MQTT](https://img.shields.io/badge/MQTT-Ephemeral%20Testing-660066?style=flat)
 ![CDC](https://img.shields.io/badge/CDC-Change%20Data%20Capture-009688?style=flat)
 ![GitOps](https://img.shields.io/badge/GitOps-CI%2FCD-FF6600?style=flat)
@@ -117,7 +118,7 @@ leveraging proper JOIN, GROUPING... strategies. It was a fundamentally broken fo
     * **MQTT with Ephemeral Topics** for unit test isolation—each test spin-up created temporary topics, ensuring no
       cross-contamination
     * **Java DSL Structure** providing a fluent, readable API for test definitions
-    * **Glue Code Integration** connecting the testing tool with the streaming infrastructure
+    * **Glue Code Integration** connecting the testing tool through Gherkin syntax with the streaming infrastructure
 * **Automated QA Transformation:** Replaced manual QA processes (~10 working days per release) with automated E2E
   testing (~15 minutes), enabling true Test-Driven Development for streaming systems
 * **Monolith Decomposition:** Broke the monolith while simultaneously introducing the new QA automation approach (
@@ -125,8 +126,11 @@ leveraging proper JOIN, GROUPING... strategies. It was a fundamentally broken fo
 * **Database Constraints:** Navigated significant database restrictions in early phases while designing the new
   architecture
 * **AWS + Kubernetes from Scratch:** This project introduced me to cloud infrastructure and container orchestration at
-  scale. I set up everything at the namespace and monitoring stack. First hands-on experience with modern cloud-native
-  infrastructure that would define my career trajectory.
+   scale. I set up everything at the namespace and monitoring stack. First hands-on experience with modern cloud-native
+   infrastructure that would define my career trajectory.
+* **Rules Engine Migration (Cost Savings):** Re-architected the Rules Engine from JBOSS BRMS server to Drools library
+   integrated directly into the streaming architecture. Eliminated expensive annual licensing costs while improving rule
+   evaluation performance.
 
 **Impact:**
 
