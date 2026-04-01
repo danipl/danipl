@@ -38,26 +38,99 @@ This path, driven by an unbeatable instinct of curiosity, comes with its own con
 bring me a kind of anxiety about losing time. I need to get my hands dirty and get scars on my skin to figure out by
 myself how things really work, uncovering the lessons that reading books or getting certifications just don't expose.
 
-# Key Projects (By Relevance)
+# Key Projects (Chronologically)
+
+## Hermes (Ecommerce)
+
+| Key                | Value                                                                           |
+|--------------------|---------------------------------------------------------------------------------|
+| Organization       | [Hiberus Tecnologia](https://www.hiberus.com/)                                  |
+| Tech Stack         | Struts to Spring Framework 3, JSFs, SQL Server, Jenkins, Apache Tomcat, on-prem |
+| Status             | Decommissioned                                                                  |
+| Personal Relevance | ⭐⭐                                                                              |
+| Age                | 27 years old                                                                    |
+
+The local company internalized me because of my work on ProgramacionJ2EE.com. They were seeking someone with
+experience in Spring Framework to modernize their homemade e-commerce platform.
+
+There, I contributed through different stages:
+
+1. Rebuilt the application's core from Struts to Spring Framework 3
+2. Migrated the ongoing customer base Hermes applications to Spring Framework
+3. Maintained and supported the most relevant customer Hermes applications
+4. Built a seminar to reskill other Java teams throughout the entire organization
+
+## Naitfy (Social Network)
+
+| Key                | Value                                                                                                                  |
+|--------------------|------------------------------------------------------------------------------------------------------------------------|
+| Organization       | Freelance                                                                                                              |
+| Tech Stack         | Spring Framework 3, Android, AngularJS, MySQL, Elasticsearch, Hazelcast, RabbitMQ, EMQTT, Netty, Docker Swarm, Jenkins |
+| Status             | Decommissioned                                                                                                         |
+| Personal Relevance | ⭐⭐⭐⭐                                                                                                                   |
+| Age                | 26 years old                                                                                                           |
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="./media/naitfy/landing.jpg" alt="Landing Home" style="max-height: 400px; width: auto;" />
+  <img src="./media/naitfy/android_home.jpg" alt="Android Home" style="max-height: 400px; width: auto;" />
+</div>
+
+It was my largest project always created, with more than three years of development, I consider Naitfy my real
+university, where I had to deal with technology from multiple and different friction points.
+
+The personal dedication required by Naitfy was, indeed, the main reason for decomissioning `ProgramacionJ2ee.com`.
+
+On those years the industry was changing rapidly, from traditional client-server architecture to the rise of mobile and
+web applications, and the adoption of modern architecture systems with microservices and containerization,.
+
+## Yizz Framework (OOO PHP Framework)
+
+| Key                | Value                                              |
+|--------------------|----------------------------------------------------|
+| Source             | [GitHub](https://github.com/danipl/Yizz-Framework) |
+| Organization       | Freelance                                          |
+| Tech Stack         | PHP 5, HTML & CSS                                  |
+| Status             | Archived - no longer maintained                    |
+| Personal Relevance | ⭐⭐                                                 |
+| Age                | 27 years old                                       |
+
+Inspired by finding some Spring Framework 2.5 workflow while developing with PHP, this was a custom object-oriented PHP
+framework that I built from scratch to learn and experiment with OOP principles in PHP 5.
+
+The framework proved valuable across several freelance projects throughout the mid-2010s. It powered multiple
+public-facing websites and served as the foundation for an internal dental clinic management application that handled
+day-to-day operations.
 
 ## ⭐⭐⭐⭐⭐ ProgramacionJ2EE.com (Blogsite) ⭐⭐⭐⭐⭐
 
-| Key                | Value              |
-|--------------------|--------------------|
-| Tech Stack         | Wordpress blogsite |
-| Status             | Decommissioned     |
-| Personal Relevance | ⭐⭐⭐⭐⭐              |
-| Years of Service   | Roughly 7 years    |
-| Age                | 24 years old       |
+| Key                | Value                     |
+|--------------------|---------------------------|
+| Organization       | Freelance                 |
+| Tech Stack         | Wordpress blogsite, MySQL |
+| Status             | Decommissioned            |
+| Personal Relevance | ⭐⭐⭐⭐⭐                     |
+| Years of Service   | Roughly 7 years           |
+| Age                | 24 years old              |
 
-Personally, I consider the decommissioning of `programacionj2ee.com` my biggest mistake. It positioned itself
+The early 2000s were a transformative period for technology, marked by the rise of the internet and the shift from
+traditional client-server architectures to web applications and modern development practices. In the Spanish-speaking
+world, there were very few reference websites covering programming technologies, and none discussing the emerging
+Spring Framework. `ProgramacionJ2EE.com` was a personal initiative to provide the Spanish-speaking community worldwide
+with a meaningful and practical resource for learning these technologies without barriers.
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="./media/programacionj2ee/oldest_version.png" alt="Oldest version" style="max-height: 400px; width: auto;" />
+  <img src="./media/programacionj2ee/newest_version.png" alt="Newest version" style="max-height: 400px; width: auto;" />
+</div>
+
+Personally, I consider the decommissioning of `ProgramacionJ2EE.com` my biggest mistake. It positioned itself
 organically at Google Rank 1 for Spring Framework searches in Spanish.
 
 The blogsite built a strong community. As it grew substantially, the moderation demands increased beyond what I could
 sustain alone, and my personal interests evolved in different directions. I was younger and lacked the business vision
 to recognize its value, so I made the decision to shut it down.
 
-Beyond that, `programacion.j2ee` was noticed by prominent colleagues in my local area, which led them to bring me on
+Beyond that, `ProgramacionJ2EE.com` was noticed by prominent colleagues in my local area, which led them to bring me on
 board as part of their team, immersing me in the corporate world by the first time.
 
 But well, let's Google Gemini explain what it was.
@@ -127,27 +200,15 @@ sites like those serve learners today:
 - Stack Overflow
 ```
 
-## Yizz Framework (OOO PHP Framework)
-
-| Key                | Value                           |
-|--------------------|---------------------------------|
-| Tech Stack         | PHP 5, HTML & CSS               |
-| Status             | Archived - no longer maintained |
-| Personal Relevance | ⭐⭐                              |
-| Age                | 27 years old                    |
-
-It was a homemade OOO PHP framework that I built to learn and experiment with object-oriented programming in PHP 5.
-
-Inspired to achieve some Spring Framework 3.5.
-
 ## Destrozatumente.com (Web-application game)
 
-| Key                | Value                                            |
-|--------------------|--------------------------------------------------|
-| Tech Stack         | Java 4 (SDK 1.4), Spring Framework 2.5, JForum 3 |
-| Status             | Archived - no longer maintained                  |
-| Personal Relevance | ⭐⭐                                               |
-| Age                | 24 years old                                     |
+| Key                | Value                                                   |
+|--------------------|---------------------------------------------------------|
+| Organization       | Freelance                                               |
+| Tech Stack         | Java 4 (SDK 1.4), Spring Framework 2.5, MySQL, JForum 3 |
+| Status             | Decommisioned                                           |
+| Personal Relevance | ⭐⭐                                                      |
+| Age                | 24 years old                                            |
 
 An online chained guessing game. It was my first "business" attempt and, more importantly, my first Spring Framework
 project.
