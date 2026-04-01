@@ -60,6 +60,91 @@ I remain deeply hands-on with technical implementation:
 
 ## Professional Journey
 
+### Adidas | Tech Lead & Streaming Architect (Creators Club)
+
+| Key                    | Value                           |
+|------------------------|---------------------------------|
+| **Organization**       | Adidas                          |
+| **Role**               | Tech Lead & Streaming Architect |
+| **Duration**           | November 2017 – October 2018    |
+| **Location**           | Zaragoza, Spain                 |
+| **Project Status**     | Running in Production           |
+| **Personal Relevance** | ⭐⭐⭐⭐⭐                           |
+
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Streaming-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Microservices-6DB33F?style=flat&logo=spring&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Infrastructure-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Namespace%20Setup-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-Ephemeral%20Testing-660066?style=flat)
+![CDC](https://img.shields.io/badge/CDC-Change%20Data%20Capture-009688?style=flat)
+![GitOps](https://img.shields.io/badge/GitOps-CI%2FCD-FF6600?style=flat)
+![Jenkins](https://img.shields.io/badge/Jenkins-Automation-D24939?style=flat&logo=jenkins&logoColor=white)
+![Java DSL](https://img.shields.io/badge/Java%20DSL-Testing%20Framework-007396?style=flat&logo=java&logoColor=white)
+
+**Project: Creators Club (Loyalty Program) — Worldwide Priority #1 (2018-2019)**
+
+The Creators Club was Adidas's flagship loyalty program, ranked as the #1 strategic project worldwide for 2018-2019. The
+original POC (called "Loyalty Program") launched in Russia by an external partner was a business success but a technical
+disaster—riddled with race conditions, unable to scale for new "engagements" (loyalty point sources), and completely
+unprepared for major market expansion.
+
+**Why I Was Chosen:**
+
+Adidas headhunted me during their late-2017 insourcing wave, bringing me in to lead a lean team with one mission: make
+this project scale for the US market launch (Adidas + Reebok). I inherited an incomplete codebase with an uncooperative
+external partner—reverse-engineering the system from source code as the only reliable source of truth.
+
+**The Technical Debt:**
+
+The original system consisted of two monolithic services: one using Spring Batch for reading external sources, another
+API for processing and fetching data. The JPA repository layer didn't exist—SQL was hardcoded without design, not even
+leveraging proper JOIN strategies. It was a fundamentally broken foundation.
+
+**What I Built:**
+
+* **Kappa Streaming Architecture:** Extracted business logic from the monolith, redesigned the entire platform around
+  Apache Kafka + Spring Boot microservices—each with a specific purpose, layered for scalability
+* **Throughput Optimization:** Resolved critical race conditions and increased system throughput by **>300x** through
+  proper architectural design
+* **E2E Testing Framework for Streaming Systems:** As streaming architectures were emerging, the Platform QA team had no
+  ready approach for end-to-end testing. I collaborated with them to create a custom framework combining:
+    * **CDC Patterns** (Change Data Capture) for tracking state changes across the pipeline
+    * **MQTT with Ephemeral Topics** for unit test isolation—each test spin-up created temporary topics, ensuring no
+      cross-contamination
+    * **Java DSL Structure** providing a fluent, readable API for test definitions
+    * **Glue Code Integration** connecting the testing tool with the streaming infrastructure
+* **Automated QA Transformation:** Replaced manual QA processes (~10 working days per release) with automated E2E
+  testing (~15 minutes), enabling true Test-Driven Development for streaming systems
+* **GitOps CI/CD from Scratch:** Built the entire CI/CD landscape enabling multiple daily deployments for **30+
+  microservices**—reduced Time-To-Market from **~10 days to ~20 minutes**
+* **Monolith Decomposition:** Broke the monolith while simultaneously introducing the new QA automation approach (
+  parallel transformation)
+* **Database Constraints:** Navigated significant database restrictions in early phases while designing the new
+  architecture
+* **AWS + Kubernetes from Scratch:** This project introduced me to cloud infrastructure and container orchestration at
+  scale. I set up everything at the namespace and project level—VPCs, IAM roles, networking policies, RBAC, resource
+  quotas, service accounts, ingress controllers, and monitoring stack. First hands-on experience with modern
+  cloud-native
+  infrastructure that would define my career trajectory.
+
+**Impact:**
+
+* **US Market Launch:** Successfully delivered productive MVP in **under 6 months**—the US launch was a major success
+* **Global Scale:** Architecture supported progressive rollouts across Central & South America, Europe, and APAC
+  markets—handling heavy loads due to scalability-first design
+* **Longevity:** The architecture proved so robust that **as of 2026, it remains the foundational architecture** of the
+  Creators Club program
+* **Recognition:** Received a **Spot Bonus** for exceptional delivery under extreme pressure
+* **Mentorship:** Provided technical mentorship to trainees, facilitating their professional growth within the
+  engineering team
+* **QA Innovation:** The E2E testing framework became the reference implementation for streaming system testing across
+  the organization
+
+**What's Next:**
+
+This success led to my transition into an expert team within the same department, tasked with driving a massive digital
+transformation to enhance domain services communication across the organization.
+
 ### Digital Takers (Consultant for Adidas) | Big Data & Platform Engineering
 
 | Key                    | Value                                  |
@@ -67,7 +152,7 @@ I remain deeply hands-on with technical implementation:
 | **Organization**       | Digital Takers (Consultant for Adidas) |
 | **Role**               | Big Data & Platform Engineer           |
 | **Duration**           | July 2016 – November 2017              |
-| **Project Status**     | Active                                 |
+| **Project Status**     | Running in Production                  |
 | **Personal Relevance** | ⭐⭐⭐                                    |
 
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Streaming-231F20?style=flat&logo=apachekafka&logoColor=white)
