@@ -68,7 +68,7 @@ I remain deeply hands-on with technical implementation:
 | **Role**               | Big Data & Platform Engineer           |
 | **Duration**           | July 2016 – November 2017              |
 | **Project Status**     | Active                                 |
-| **Personal Relevance** | ⭐⭐⭐⭐                                   |
+| **Personal Relevance** | ⭐⭐⭐                                    |
 
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Streaming-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Apache Storm](https://img.shields.io/badge/Apache%20Storm-Real--time%20Processing-326CE5?style=flat)
