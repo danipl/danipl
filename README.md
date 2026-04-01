@@ -126,11 +126,11 @@ leveraging proper JOIN, GROUPING... strategies. It was a fundamentally broken fo
 * **Database Constraints:** Navigated significant database restrictions in early phases while designing the new
   architecture
 * **AWS + Kubernetes from Scratch:** This project introduced me to cloud infrastructure and container orchestration at
-   scale. I set up everything at the namespace and monitoring stack. First hands-on experience with modern cloud-native
-   infrastructure that would define my career trajectory.
+  scale. I set up everything at the namespace and monitoring stack. First hands-on experience with modern cloud-native
+  infrastructure that would define my career trajectory.
 * **Rules Engine Migration (Cost Savings):** Re-architected the Rules Engine from JBOSS BRMS server to Drools library
-   integrated directly into the streaming architecture. Eliminated expensive annual licensing costs while improving rule
-   evaluation performance.
+  integrated directly into the streaming architecture. Eliminated expensive annual licensing costs while improving rule
+  evaluation performance.
 
 **Impact:**
 
@@ -250,31 +250,108 @@ There, I contributed through different stages:
 |------------------------|-------------------------------------|
 | **Organization**       | Freelance                           |
 | **Project Status**     | Completed — 3+ years of development |
-| **Personal Relevance** | ⭐⭐⭐⭐                                |
+| **Personal Relevance** | ⭐⭐⭐⭐⭐                               |
 
 ![Spring Framework](https://img.shields.io/badge/Spring%20Framework-3-6DB33F?style=flat&logo=spring&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-SDK-3DDC84?style=flat&logo=android&logoColor=white)
 ![AngularJS](https://img.shields.io/badge/AngularJS-1.x-E03237?style=flat&logo=angularjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-![Hazelcast](https://img.shields.io/badge/Hazelcast-In%20Memory%20Grid-85D449?style=flat)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-Relational%20DB-003545?style=flat&logo=mariadb&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-Geohashing-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Hazelcast](https://img.shields.io/badge/Hazelcast-Distributed%20Datagrid-85D449?style=flat)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-Message%20Broker-FF6600?style=flat&logo=rabbitmq&logoColor=white)
 ![EMQTT](https://img.shields.io/badge/EMQTT-MQTT%20Broker-3A3A3A?style=flat)
 ![Netty](https://img.shields.io/badge/Netty-Async%20Framework-4B3A3A?style=flat)
-![Docker Swarm](https://img.shields.io/badge/Docker%20Swarm-Container%20Orchestration-2496ED?style=flat&logo=docker&logoColor=white)
+![GlusterFS](https://img.shields.io/badge/GlusterFS-Distributed%20Storage-FF6600?style=flat)
+![Docker Swarm](https://img.shields.io/badge/Docker%20Swarm-Orchestration-2496ED?style=flat&logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white)
 
 |                                           *Landing page*                                            |                                              *Android home*                                              |
 |:---------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
-| <img src="./media/naitfy/landing.jpg" alt="Landing page" style="max-height: 250px; width: auto;" /> | <img src="./media/naitfy/android_home.jpg" alt="Android home" style="max-height: 250px; width: auto;" /> |
+| <img src="./media/naitfy/landing.jpg" alt="Landing page" style="max-height: 250px; width: auto;" /> | <img src="./media/naitfy/android_home.jpg" alt="Android home" style="max-height: 250px; width: auto;" /> 
 
-It was my largest project always created, with more than three years of development, I consider Naitfy my real
-university, where I had to deal with technology from multiple and different friction points.
+**Vision: The Ultimate Nightlife Experience**
 
-The personal dedication required by Naitfy was, indeed, the main reason for decomissioning `ProgramacionJ2ee.com`.
+Naitfy was a social network designed to deliver the best nightlife experience, by connecting people with pubs, discos,
+and
+music shows happening around them. The platform offered a comprehensive catalog of events, venues, exclusive offers, and
+an innovative way to meet other people sharing the same moment.
 
-On those years the industry was changing rapidly, from traditional client-server architecture to the rise of mobile and
-web applications, and the adoption of modern architecture systems with microservices and containerization.
+**The Challenge: Pre-Cloud Era Engineering**
+
+This project was built during an era before modern cloud providers abstracted infrastructure complexity. There were no
+managed services, no "click-to-deploy" solutions. Every decision required deep understanding, creativity, and hands-on
+implementation. Knowledge was built by doing, not by clicking buttons on a UI. This is where bullet-proof engineers
+are forged, from design to deployment, weaving together disparate technologies and facing with everything across the
+entire SDLC.
+
+**Architecture: N-Tier Layered Design**
+
+Built with a classic Spring Framework N-Tier architecture:
+
+* **Shared Core Artifacts:** Global entities and repositories shipped as dedicated artifacts (exactly like the service
+  layer)
+* **Microservice Pattern:** Each service imported shared dependencies but could extend with custom implementations as
+  needed
+* **Clean Separation:** Proper layering between data access, business logic, and presentation following SOLID principles
+
+**Data Architecture: Dual-Database Strategy**
+
+* **MariaDB:** Structured data storage, users, venues (locals), events, and core entities requiring ACID guarantees
+* **Elasticsearch:** Specialized features like **user geohashing**, enabling location-based matching and discovery
+
+**Geo-Location System: Geohashing at Scale**
+
+Naitfy implemented a powerful geolocation system using **geohashing** to:
+
+* Locate users at different venues in real-time
+* Surface the best nightlife plans based on proximity
+* Enable "Tinder-like" matching for people who liked each other **and** were sharing time at the same place
+  simultaneously
+
+**Real-Time Communication: Dual Broker Architecture**
+
+The live chat system used a **custom protocol built on top of MQTT**, leveraging two message brokers for different
+purposes:
+
+* **RabbitMQ:** General messaging workloads (MQTT plugin was limited at the time)
+* **EMQTT:** Dedicated MQTT broker for high-performance pub/sub messaging
+* Each broker served specific use cases where they excelled
+
+**Distributed Infrastructure: Scalable by Design**
+
+* **Hazelcast:** Distributed in-memory datagrid for:
+    * Distributed user sessions across all services
+    * Global TTL'd (time-to-live) data caching
+    * Cluster-wide state management
+    * Broadcast event-driven microservices communication for node management (RabbitMQ and EMQTT to serve other concerns)
+* **Netty:** High-performance async resource services
+* **GlusterFS:** Distributed network filesystem under the hood, providing scalable storage across the resource server swarm
+
+**API Gateway Layer: Dual Gateway Architecture**
+
+* **Main API Gateway:** All domain services behind a front-facing gateway handling:
+    * SSL/TLS handshake termination
+    * User authentication & authorization
+    * Layer 7 load balancing
+    * Request routing & filtering
+* **Resources API Gateway:** Separate gateway for resource servers:
+    * Integrated with distributed Hazelcast user sessions
+    * Handled authentication for static/media resources
+    * Dedicated load balancing for high-bandwidth endpoints
+
+**Why This Matters:**
+
+Naitfy was my **real university**, more than three years of development dealing with technology from every friction
+point:
+
+* Full-stack development (Android + Web + Backend domain-driven microservices)
+* Distributed systems design (datagrid, messaging, storage)
+* Infrastructure provisioning (before cloud abstraction)
+* CI/CD pipeline creation
+* End-to-end SDLC ownership
+
+The personal dedication Naitfy required was, indeed, the main reason for decommissioning `ProgramacionJ2EE.com`, a
+trade-off I made to build something ambitious and technically challenging.
 
 ---
 
