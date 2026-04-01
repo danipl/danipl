@@ -171,10 +171,9 @@ There, I contributed through different stages:
 ![Docker Swarm](https://img.shields.io/badge/Docker%20Swarm-Container%20Orchestration-2496ED?style=flat&logo=docker&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white)
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="./media/naitfy/landing.jpg" alt="Landing Home" style="max-height: 400px; width: auto;" />
-  <img src="./media/naitfy/android_home.jpg" alt="Android Home" style="max-height: 400px; width: auto;" />
-</div>
+|                                           *Landing page*                                            |                                              *Android home*                                              |
+|:---------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
+| <img src="./media/naitfy/landing.jpg" alt="Landing page" style="max-height: 250px; width: auto;" /> | <img src="./media/naitfy/android_home.jpg" alt="Android home" style="max-height: 250px; width: auto;" /> |
 
 It was my largest project always created, with more than three years of development, I consider Naitfy my real
 university, where I had to deal with technology from multiple and different friction points.
@@ -224,11 +223,6 @@ traditional client-server architectures to web applications and modern developme
 world, there were very few reference websites covering programming technologies, and none discussing the emerging Spring
 Framework. `ProgramacionJ2EE.com` was a personal initiative to provide the Spanish-speaking community worldwide with a
 meaningful and practical resource for learning these technologies without barriers.
-
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="./media/programacionj2ee/oldest_version.png" alt="Oldest version" style="max-height: 400px; width: auto;" />
-  <img src="./media/programacionj2ee/newest_version.png" alt="Newest version" style="max-height: 400px; width: auto;" />
-</div>
 
 |                                                    *Oldest version*                                                    |                                                    *Newest version*                                                    |
 |:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|
