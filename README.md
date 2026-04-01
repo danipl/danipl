@@ -1,6 +1,5 @@
-# Dani 👋
-
-**Platform Engineer & DevEx Specialist** | Java & Python | AWS, Kubernetes, Terraform
+**Platform Engineer & DevEx Specialist** | Java & Python | AWS, Kubernetes, Terraform, ArgoCD | Specialized in
+**Wide experience in Software Engineering at Enterprise Scale**
 
 ## About Me
 
@@ -323,9 +322,11 @@ purposes:
     * Distributed user sessions across all services
     * Global TTL'd (time-to-live) data caching
     * Cluster-wide state management
-    * Broadcast event-driven microservices communication for node management (RabbitMQ and EMQTT to serve other concerns)
+    * Broadcast event-driven microservices communication for node management (RabbitMQ and EMQTT to serve other
+      concerns)
 * **Netty:** High-performance async resource services
-* **GlusterFS:** Distributed network filesystem under the hood, providing scalable storage across the resource server swarm
+* **GlusterFS:** Distributed network filesystem under the hood, providing scalable storage across the resource server
+  swarm
 
 **API Gateway Layer: Dual Gateway Architecture**
 
