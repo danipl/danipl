@@ -67,7 +67,7 @@ I remain deeply hands-on with technical implementation:
 | **Organization**       | Digital Takers (Consultant for Adidas) |
 | **Role**               | Big Data & Platform Engineer           |
 | **Duration**           | July 2016 – November 2017              |
-| **Status**             | Active                                 |
+| **Project Status**     | Active                                 |
 | **Personal Relevance** | ⭐⭐⭐⭐                                   |
 
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Streaming-231F20?style=flat&logo=apachekafka&logoColor=white)
@@ -105,7 +105,8 @@ the project. My background with Elasticsearch and building microservices with Sp
   Event-Driven Architecture across the organization
 * **First Central Elasticsearch Cluster:** Built the foundational Elasticsearch infrastructure that became the knowledge
   base for strategic analytics
-* **Container Orchestration (Early Days):** Deployed on Docker Swarm during the Kubernetes vs Swarm wars, the old version
+* **Container Orchestration (Early Days):** Deployed on Docker Swarm during the Kubernetes vs Swarm wars, the old
+  version
   where we had to manually deploy the ETCD cluster first, then attach every Docker Swarm node to it
 * **Infrastructure as Code (Before IaC Was a Thing):** Managed the entire infrastructure with bash scripts
 * **CI/CD Evolution:** Started with TeamCity, later migrated to Jenkins
@@ -127,7 +128,7 @@ Expert + Spring Tech Lead** for the following years to come.
 | Key                    | Value                                          |
 |------------------------|------------------------------------------------|
 | **Organization**       | [Hiberus Tecnologia](https://www.hiberus.com/) |
-| **Status**             | Completed — Enterprise migration               |
+| **Project Status**     | Completed — Enterprise migration               |
 | **Personal Relevance** | ⭐⭐                                             |
 
 ![Struts](https://img.shields.io/badge/Struts-Legacy%20Framework-D24939?style=flat)
@@ -155,7 +156,7 @@ There, I contributed through different stages:
 | Key                    | Value                               |
 |------------------------|-------------------------------------|
 | **Organization**       | Freelance                           |
-| **Status**             | Completed — 3+ years of development |
+| **Project Status**     | Completed — 3+ years of development |
 | **Personal Relevance** | ⭐⭐⭐⭐                                |
 
 ![Spring Framework](https://img.shields.io/badge/Spring%20Framework-3-6DB33F?style=flat&logo=spring&logoColor=white)
@@ -191,7 +192,7 @@ web applications, and the adoption of modern architecture systems with microserv
 |------------------------|----------------------------------------------------|
 | **Source**             | [GitHub](https://github.com/danipl/Yizz-Framework) |
 | **Organization**       | Freelance                                          |
-| **Status**             | Archived — Learning project                        |
+| **Project Status**     | Archived — Learning project                        |
 | **Personal Relevance** | ⭐⭐                                                 |
 
 ![PHP](https://img.shields.io/badge/PHP-5-777BB4?style=flat&logo=php&logoColor=white)
@@ -212,7 +213,7 @@ day-to-day operations.
 | Key                    | Value                          |
 |------------------------|--------------------------------|
 | **Organization**       | Freelance                      |
-| **Status**             | Completed — 7 years of service |
+| **Project Status**     | Completed — 7 years of service |
 | **Personal Relevance** | ⭐⭐⭐⭐⭐                          |
 
 ![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?style=flat&logo=wordpress&logoColor=white)
@@ -312,7 +313,7 @@ sites like those serve learners today:
 | Key                    | Value                                       |
 |------------------------|---------------------------------------------|
 | **Organization**       | Freelance                                   |
-| **Status**             | Completed — University Final Degree Project |
+| **Project Status**     | Completed — University Final Degree Project |
 | **Personal Relevance** | ⭐⭐                                          |
 
 ![Java 4](https://img.shields.io/badge/Java%204-SDK%201.4-007396?style=flat&logo=java&logoColor=white)
