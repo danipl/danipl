@@ -230,6 +230,10 @@ meaningful and practical resource for learning these technologies without barrie
   <img src="./media/programacionj2ee/newest_version.png" alt="Newest version" style="max-height: 400px; width: auto;" />
 </div>
 
+|                                                    *Oldest version*                                                    |                                                    *Newest version*                                                    |
+|:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|
+| <img src="./media/programacionj2ee/oldest_version.png" alt="Oldest version" style="max-height: 250px; width: auto;" /> | <img src="./media/programacionj2ee/newest_version.png" alt="Newest version" style="max-height: 250px; width: auto;" /> |
+
 Personally, I consider the decommissioning of `ProgramacionJ2EE.com` my biggest mistake. It positioned itself
 organically at Google Rank 1 for Spring Framework searches in Spanish.
 
