@@ -15,8 +15,6 @@ designing the platforms that power them.
 Today I build ecosystems that reduce cognitive load and automate the boring
 stuff, so engineering teams can focus on delivering value instead of fighting with technological friction.
 
-
-
 If I had to choose one testimonial from the thousands of interactions throughout my career, I would highlight this one
 by [Jose Maria Puyal](https://www.linkedin.com/in/josepuyal/), who was my line manager at Adidas.
 > The one engineer to go for getting things done.
@@ -38,15 +36,13 @@ being.
 
 It has never been about writing code or studying theory, nor even to find a job, making profits in the market or
 understanding how the sound frequencies shape a 808 distorted kick. It's always about mastering the craft
-through deep understanding of what once caught my attention. 
+through deep understanding of what once caught my attention.
 
 Having a purpose that I believe in is the fuel to keep me going.
 
 > I hear and I forget. I see and I remember. I do and I understand.
 >
 > — Confucius
-
----
 
 ## Current Focus
 
@@ -57,46 +53,92 @@ I remain deeply hands-on with technical implementation:
 * **Corporate Work:** Identifying operational friction points and implementing standardization and best practices—with
   creativity and a results-oriented mindset
 
----
-
 ## Professional Journey
 
-### Corporate Roles (Last 10+ Years)
+## Key Projects (Reverse Chronological Order)
 
-| Company       | Focus                                |
-|---------------|--------------------------------------|
-| **New Relic** | Observability & Platform Engineering |
-| **Adidas**    | Large-scale distributed systems      |
-| **IriusRisk** | Security & Architecture              |
+### Hermes (E-commerce Platform)
 
-My career began as a freelance software developer, which gave me a 360-degree view of the SDLC: from implementation and
-testing to deployment and observability. This foundation allowed me to excel in building MVPs in greenfield environments
-while perfecting high-scalability architectural design.
+| Key                    | Value                                          |
+|------------------------|------------------------------------------------|
+| **Organization**       | [Hiberus Tecnologia](https://www.hiberus.com/) |
+| **Status**             | Completed — Enterprise migration               |
+| **Personal Relevance** | ⭐⭐                                             |
 
-More details coming soon—expanding this section with specific roles, achievements, and technologies used.
+![Struts](https://img.shields.io/badge/Struts-Legacy%20Framework-D24939?style=flat) 
+![Spring Framework](https://img.shields.io/badge/Spring%20Framework-3-6DB33F?style=flat&logo=spring&logoColor=white) 
+![JSF](https://img.shields.io/badge/JSF-JavaServer%20Faces-007396?style=flat&logo=java&logoColor=white) 
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white) 
+![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white) 
+![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat&logo=apachetomcat&logoColor=black) 
+![On-Prem](https://img.shields.io/badge/On--Prem-Infrastructure-5C5C5C?style=flat)
+
+The local company internalized me because of my work on ProgramacionJ2EE.com. They were seeking someone with experience
+in Spring Framework to modernize their homemade e-commerce platform.
+
+There, I contributed through different stages:
+
+1. Rebuilt the application's core from Struts to Spring Framework 3
+2. Migrated the ongoing customer base Hermes applications to Spring Framework
+3. Maintained and supported the most relevant customer Hermes applications
+4. Built a seminar to reskill other Java teams throughout the entire organization
 
 ---
 
-## Key Projects (Chronologically)
+### Naitfy (Social Network)
 
-### DestrozatuMente.com (Web Application Game)
+| Key                    | Value                               |
+|------------------------|-------------------------------------|
+| **Organization**       | Freelance                           |
+| **Status**             | Completed — 3+ years of development |
+| **Personal Relevance** | ⭐⭐⭐⭐                                |
 
-| Key                    | Value                                       |
-|------------------------|---------------------------------------------|
-| **Organization**       | Freelance                                   |
-| **Status**             | Completed — University Final Degree Project |
-| **Personal Relevance** | ⭐⭐                                          |
+![Spring Framework](https://img.shields.io/badge/Spring%20Framework-3-6DB33F?style=flat&logo=spring&logoColor=white) 
+![Android](https://img.shields.io/badge/Android-SDK-3DDC84?style=flat&logo=android&logoColor=white) 
+![AngularJS](https://img.shields.io/badge/AngularJS-1.x-E03237?style=flat&logo=angularjs&logoColor=white) 
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white) 
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white) 
+![Hazelcast](https://img.shields.io/badge/Hazelcast-In%20Memory%20Grid-85D449?style=flat) 
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white) 
+![EMQTT](https://img.shields.io/badge/EMQTT-MQTT%20Broker-3A3A3A?style=flat) 
+![Netty](https://img.shields.io/badge/Netty-Async%20Framework-4B3A3A?style=flat) 
+![Docker Swarm](https://img.shields.io/badge/Docker%20Swarm-Container%20Orchestration-2496ED?style=flat&logo=docker&logoColor=white) 
+![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=flat&logo=jenkins&logoColor=white)
 
-`Java 4 (SDK 1.4)` `Spring Framework 2.5` `MySQL` `JForum 3`
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="./media/naitfy/landing.jpg" alt="Landing Home" style="max-height: 400px; width: auto;" />
+  <img src="./media/naitfy/android_home.jpg" alt="Android Home" style="max-height: 400px; width: auto;" />
+</div>
 
-An online chained guessing game. It was my first "business" attempt and, more importantly, my first Spring Framework
-project.
+It was my largest project always created, with more than three years of development, I consider Naitfy my real
+university, where I had to deal with technology from multiple and different friction points.
 
-This project was selected to be part of my Final Degree Project at the university, earning me significant recognition.
-It introduced Spring Framework for the first time as part of some Final Degree Project at
-the [University of Zaragoza](https://www.unizar.es/).
+The personal dedication required by Naitfy was, indeed, the main reason for decomissioning `ProgramacionJ2ee.com`.
 
-The project natively integrated [JForum 3](https://github.com/rafaelsteil/jforum3) by @rafaelsteil.
+On those years the industry was changing rapidly, from traditional client-server architecture to the rise of mobile and
+web applications, and the adoption of modern architecture systems with microservices and containerization.
+
+---
+
+### Yizz Framework (OOP PHP Framework)
+
+| Key                    | Value                                              |
+|------------------------|----------------------------------------------------|
+| **Source**             | [GitHub](https://github.com/danipl/Yizz-Framework) |
+| **Organization**       | Freelance                                          |
+| **Status**             | Archived — Learning project                        |
+| **Personal Relevance** | ⭐⭐                                                 |
+
+![PHP](https://img.shields.io/badge/PHP-5-777BB4?style=flat&logo=php&logoColor=white) 
+![HTML](https://img.shields.io/badge/HTML-5-E34F26?style=flat&logo=html5&logoColor=white) 
+![CSS](https://img.shields.io/badge/CSS-3-1572B6?style=flat&logo=css3&logoColor=white)
+
+Inspired by finding some Spring Framework 2.5 workflow while developing with PHP, this was a custom object-oriented PHP
+framework that I built from scratch to learn and experiment with OOP principles in PHP 5.
+
+The framework proved valuable across several freelance projects throughout the mid-2010s. It powered multiple
+public-facing websites and served as the foundation for an internal dental clinic management application that handled
+day-to-day operations.
 
 ---
 
@@ -108,7 +150,8 @@ The project natively integrated [JForum 3](https://github.com/rafaelsteil/jforum
 | **Status**             | Completed — 7 years of service |
 | **Personal Relevance** | ⭐⭐⭐⭐⭐                          |
 
-`WordPress` `MySQL`
+![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?style=flat&logo=wordpress&logoColor=white) 
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white)
 
 The early 2000s were a transformative period for technology, marked by the rise of the internet and the shift from
 traditional client-server architectures to web applications and modern development practices. In the Spanish-speaking
@@ -199,71 +242,27 @@ sites like those serve learners today:
 
 ---
 
-### Yizz Framework (OOP PHP Framework)
+### DestrozatuMente.com (Web Application Game)
 
-| Key                    | Value                                              |
-|------------------------|----------------------------------------------------|
-| **Source**             | [GitHub](https://github.com/danipl/Yizz-Framework) |
-| **Organization**       | Freelance                                          |
-| **Status**             | Archived — Learning project                        |
-| **Personal Relevance** | ⭐⭐                                                 |
+| Key                    | Value                                       |
+|------------------------|---------------------------------------------|
+| **Organization**       | Freelance                                   |
+| **Status**             | Completed — University Final Degree Project |
+| **Personal Relevance** | ⭐⭐                                          |
 
-`PHP 5` `HTML` `CSS`
+![Java 4](https://img.shields.io/badge/Java%204-SDK%201.4-007396?style=flat&logo=java&logoColor=white) 
+![Spring Framework](https://img.shields.io/badge/Spring%20Framework-2.5-6DB33F?style=flat&logo=spring&logoColor=white) 
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white) 
+![JForum 3](https://img.shields.io/badge/JForum-3-orange?style=flat)
 
-Inspired by finding some Spring Framework 2.5 workflow while developing with PHP, this was a custom object-oriented PHP
-framework that I built from scratch to learn and experiment with OOP principles in PHP 5.
+An online chained guessing game. It was my first "business" attempt and, more importantly, my first Spring Framework
+project.
 
-The framework proved valuable across several freelance projects throughout the mid-2010s. It powered multiple
-public-facing websites and served as the foundation for an internal dental clinic management application that handled
-day-to-day operations.
+This project was selected to be part of my Final Degree Project at the university, earning me significant recognition.
+It introduced Spring Framework for the first time as part of some Final Degree Project at
+the [University of Zaragoza](https://www.unizar.es/).
 
----
-
-### Naitfy (Social Network)
-
-| Key                    | Value                               |
-|------------------------|-------------------------------------|
-| **Organization**       | Freelance                           |
-| **Status**             | Completed — 3+ years of development |
-| **Personal Relevance** | ⭐⭐⭐⭐                                |
-
-`Spring Framework 3` `Android` `AngularJS` `MySQL` `Elasticsearch` `Hazelcast` `RabbitMQ` `EMQTT` `Netty` `Docker Swarm`
-`Jenkins`
-
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="./media/naitfy/landing.jpg" alt="Landing Home" style="max-height: 400px; width: auto;" />
-  <img src="./media/naitfy/android_home.jpg" alt="Android Home" style="max-height: 400px; width: auto;" />
-</div>
-
-It was my largest project always created, with more than three years of development, I consider Naitfy my real
-university, where I had to deal with technology from multiple and different friction points.
-
-The personal dedication required by Naitfy was, indeed, the main reason for decomissioning `ProgramacionJ2ee.com`.
-
-On those years the industry was changing rapidly, from traditional client-server architecture to the rise of mobile and
-web applications, and the adoption of modern architecture systems with microservices and containerization.
-
----
-
-### Hermes (E-commerce Platform)
-
-| Key                    | Value                                          |
-|------------------------|------------------------------------------------|
-| **Organization**       | [Hiberus Tecnologia](https://www.hiberus.com/) |
-| **Status**             | Completed — Enterprise migration               |
-| **Personal Relevance** | ⭐⭐                                             |
-
-`Struts` `Spring Framework 3` `JSFs` `SQL Server` `Jenkins` `Apache Tomcat` `on-prem`
-
-The local company internalized me because of my work on ProgramacionJ2EE.com. They were seeking someone with experience
-in Spring Framework to modernize their homemade e-commerce platform.
-
-There, I contributed through different stages:
-
-1. Rebuilt the application's core from Struts to Spring Framework 3
-2. Migrated the ongoing customer base Hermes applications to Spring Framework
-3. Maintained and supported the most relevant customer Hermes applications
-4. Built a seminar to reskill other Java teams throughout the entire organization
+The project natively integrated [JForum 3](https://github.com/rafaelsteil/jforum3) by @rafaelsteil.
 
 ---
 
