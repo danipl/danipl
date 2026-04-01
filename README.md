@@ -1,5 +1,31 @@
-**Platform Engineer & DevEx Specialist** | Java & Python | AWS, Kubernetes, Terraform, ArgoCD | Specialized in
-**Wide experience in Software Engineering at Enterprise Scale**
+<!-- Header Banner -->
+<div align="center">
+
+# 👋 Hi, Daniel here!
+
+### **Platform Engineer & DevEx Specialist**
+
+![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+
+**Specialized in Software Engineering at Enterprise Scale**
+
+![Java](https://img.shields.io/badge/Java-Expert-007396?style=for-the-badge&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Confortable-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-Learner-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+![Spring](https://img.shields.io/badge/Spring-Expert-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Confortable-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Echo](https://img.shields.io/badge/Echo-Learner-00ADD8?style=for-the-badge&logo=echo&logoColor=white)
+
+📍 Zaragoza, Spain &nbsp;|&nbsp; 🏢 IriusRisk • Adidas • New Relic &nbsp;|&nbsp;
+📧 [LinkedIn](https://www.linkedin.com/in/danielpardoligorred/)
+
+</div>
+
+---
 
 ## About Me
 
@@ -241,8 +267,6 @@ There, I contributed through different stages:
 3. Maintained and supported the most relevant customer Hermes applications
 4. Built a seminar to reskill other Java teams throughout the entire organization
 
----
-
 ### Naitfy (Social Network)
 
 | Key                    | Value                               |
@@ -354,8 +378,6 @@ point:
 The personal dedication Naitfy required was, indeed, the main reason for decommissioning `ProgramacionJ2EE.com`, a
 trade-off I made to build something ambitious and technically challenging.
 
----
-
 ### Yizz Framework (OOP PHP Framework)
 
 | Key                    | Value                                              |
@@ -375,8 +397,6 @@ framework that I built from scratch to learn and experiment with OOP principles 
 The framework proved valuable across several freelance projects throughout the mid-2010s. It powered multiple
 public-facing websites and served as the foundation for an internal dental clinic management application that handled
 day-to-day operations.
-
----
 
 ### ProgramacionJ2EE.com (Educational Platform)
 
@@ -474,8 +494,6 @@ sites like those serve learners today:
 - Baeldung
 - Stack Overflow
 ```
-
----
 
 ### DestrozatuMente.com (Web Application Game)
 
