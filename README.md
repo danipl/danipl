@@ -89,13 +89,16 @@ VP-level strategic decision-making across the company, especially in logistic di
 
 **The Challenge:**
 
-The local platform engineering team headhunted me because of my experience designing and building streaming
-architectures, something well-known in my city after presenting the `Naitfy` project at local conferences. This was the
-early days of `Apache Kafka` adoption, and despite my experience coming from other message brokers, I positioned myself
-as the only candidate local based with hands-on experience building streaming Kappa architectures.
+The local platform engineering team headhunted me for my experience designing streaming architectures. My work was
+already known in the city after I presented the `Naitfy` project at local conferences. Those were the early days of
+`Apache Kafka`. Even though my background was with other message brokers, I stood out as the only local candidate with
+real, hands-on experience building Kappa streaming architectures.
 
-I was chosen by **Daniel Fanjul**, an ex-Spotify backend engineer with solid `Apache Kafka` experience who was leading
-the project. My background with Elasticsearch and building microservices with Spring Framework sealed the fit.
+My background with Elasticsearch and building microservices with Spring Framework sealed
+the fit.
+
+I was chosen by an ex-Spotify backend engineer with solid `Apache Kafka` experience who was leading the project in the
+early stage.
 
 **What I Built:**
 
