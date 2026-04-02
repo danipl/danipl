@@ -86,6 +86,139 @@ I remain deeply hands-on with technical implementation:
 
 ## Professional Journey
 
+### Adidas | Tech Lead & Streaming Architect (Enterprise Architecture Transformation)
+
+| Key              | Value                                        |
+|------------------|----------------------------------------------|
+| **Organization** | Adidas                                       |
+| **Role**         | Tech Lead & Streaming Architect              |
+| **Duration**     | October 2018 – June 2021                     |
+| **Location**     | Zaragoza, Spain                              |
+| **Status**       | ✅ Completed — Department-Wide Transformation |
+| **Relevance**    | ⭐⭐⭐⭐⭐                                        |
+
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Event%20Hub-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Microservices-6DB33F?style=flat&logo=spring&logoColor=white)
+![DDD](https://img.shields.io/badge/DDD-Domain--Driven%20Design-009688?style=flat)
+![Jenkins](https://img.shields.io/badge/Jenkins-Pipeline%20Library-D24939?style=flat&logo=jenkins&logoColor=white)
+![Java](https://img.shields.io/badge/Java-Archetype-007396?style=flat&logo=java&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-Clients%20Archetype-231F20?style=flat&logo=apachekafka&logoColor=white)
+![GDPR](https://img.shields.io/badge/GDPR-Data%20Privacy-003399?style=flat)
+![CCPA](https://img.shields.io/badge/CCPA-Privacy%20Compliance-003399?style=flat)
+
+**The Mission: Enterprise Architecture Transformation**
+
+After the Creators Club MVP success in the US and 7+ additional markets, the Direction levels of the Consumer Engagement
+department decided to extend the modern architectural concepts to all domains within the department.
+
+The Architecture Directors board approved a wide proposal, and I moved to a **new team created from scratch** with the
+mission of transforming how the Consumer Engagement department's domains communicated with each other.
+
+**The Challenge:**
+
+Multiple domains with vastly different stacks were communicating through legacy, highly inefficient approaches. The goal
+was to:
+
+* Identify all communication channels across domains
+* Propose modern communication strategies
+* Execute a progressive, well-paced transformation schedule
+
+**Phase 1: Discovery & Strategy**
+
+Working with every department domain, we created a comprehensive catalog of communication channels and procedures. The
+Architecture Board defined two main communication strategies:
+
+* **REST APIs (API Evangelist):** Each domain defined their own REST APIs for synchronous E2E communications — **led by
+  the API Evangelist, not part of my responsibilities**
+* **Consumer Event Hub (CEH):** A **single, unified Kafka topic catalog for the entire department** for high-scale async
+  communications — **this was my responsibility**
+
+**Phase 2: Implementation — What I Built**
+
+**1. Consumer Event Hub (CEH) — Kafka-Driven Integration**
+
+I established a well-paced calendar with a dedicated board, working closely with backend engineers from each domain to
+onboard them into the CEH by publishing and consuming events.
+
+* **Unified Kafka Topic Catalog:** Single source of truth for the entire Consumer Engagement department — replacing
+  legacy point-to-point integrations
+* **DDD Restructuring:** Spearheaded restructuring of SIX domains using Domain-Driven Design principles
+
+**2. DevOps Excellence — Jenkins Pipeline Library**
+
+Engineered a centralized Jenkins pipeline library to unify release processes across all teams:
+
+* **Groovy DSL (Jenkinsfile):** Two approaches for TBD (Test-Driven Build) and GitHub release strategies
+* **Template-Based Setup:** Place the Jenkinsfile template, modify a few DSL lines and parameters, and any repository
+  was ready to publish and deploy
+* **Impact:** Reduced new project setup time from **~2 weeks to ~30 minutes**
+
+**3. Developer Experience — Java/Kafka Archetype**
+
+Developed a custom Java/Kafka archetype to abstract boilerplate complexity and enforce observability standards:
+
+* **Pre-configured Metrics:** Designed datapoints and dimensional metrics for both technical and business monitoring
+* **Zero-Boilerplate Setup:** Developers didn't waste time on project bootstrapping
+* **Impact:** Reduced service bootstrapping time from **~1 week to ~1 hour**
+
+**4. Data Privacy Platform (DPP) — GDPR/CCPA Compliance**
+
+*End-2019 Crisis Response:*
+
+Just before Q4 2019, the company faced a critical situation, an external partner chosen to build the Data Privacy
+Platform had failed. With only **3.5 months** to deliver, I had to:
+
+* Build a team from scratch (engineers from Consumer Engagement transformation + 2 engineers from other projects
+  temporarily)
+* Design and build the platform from greenfield
+* Deliver GDPR/CCPA compliance under extreme pressure
+
+**What We Built:**
+
+* **Kappa Streaming Architecture:** Aggregating distributed PII data across the organization
+* **40+ Integrations:** Internal and external services connected via streaming architecture adapters
+* **Cross-Functional Leadership:** Orchestrated a team of SEVEN engineers to deliver in under 4 months
+
+**Impact:**
+
+* ✅ **Delivered in 3.5 months** — platform went live on schedule
+* 🏆 **Received Spot Bonus** for exceptional delivery under extreme pressure
+* 📊 **40+ integrations** operational with internal and external services
+* 🛡️ **GDPR/CCPA compliance** achieved across all consumer data domains
+
+**Platform Specialist & Internal Consultant:**
+
+Beyond the architectural transformation, I served as the **de facto platform specialist** for the entire Consumer
+Engagement department:
+
+* **Kubernetes Namespaces:** Configured and managed namespaces for all teams undergoing transformation—handling RBAC,
+  resource quotas, network policies, service accounts, and ingress configurations
+* **Kafka Topics:** Designed and provisioned topic structures across the Consumer Event Hub—partitioning strategies,
+  retention policies, ACLs, and schema registry integration
+* **Kafka Clients:** Supported teams integrating with the Kafka archetype—troubleshooting consumer groups, offset
+  management, serialization, and error handling
+* **CI/CD Pipelines:** Configured Jenkins pipelines for dozens of teams—customizing build steps, deployment strategies,
+  environment promotions, and integration with Kubernetes clusters
+* **Cross-Team Support:** Acted as internal consultant for teams lacking platform expertise—unblocking adoption, solving
+  infrastructure challenges, and ensuring consistent patterns across domains
+
+This hands-on platform work alongside architectural leadership gave me a **unique 360-degree view**, from high-level
+enterprise strategy down to YAML configurations and pipeline DSL scripts.
+
+**Leadership & Team Building:**
+
+* **Hiring:** Managed onboarding and conducted technical interviews for Senior roles
+* **Team Structure:** Played a key role in shaping the engineering team structure
+* **Knowledge Transfer:** Worked closely with domain teams to onboard them into modern architectural patterns
+
+**The Aftermath:**
+
+For over a year after DPP delivery, I continued technically leading the stabilization of the Data Privacy Platform while
+advancing the digital transformation work across the department.
+
+This period defined my evolution from **project-focused architect** to **enterprise transformation leader**,
+orchestrating change across multiple domains while delivering critical business initiatives under pressure.
+
 ### Adidas | Tech Lead & Streaming Architect (Creators Club)
 
 | Key                    | Value                           |
