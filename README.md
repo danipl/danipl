@@ -86,6 +86,8 @@ I remain deeply hands-on with technical implementation:
 
 ## Professional Journey
 
+---
+
 ### IriusRisk | Staff Platform & Release Engineer (DevEx Lead)
 
 | Key              | Value                                 |
@@ -118,19 +120,30 @@ The company reached out with a critical first mandate, fix the software delivery
 world-class customers by improving Deployment Frequency and Lead Time to Change, while elevating the DevEx of a software
 engineering team that was starting from a greenfield state.
 
-**The Challenge:**
+**Why I Was Chosen**
 
-When I arrived, releases were a **4-week ordeal** requiring a lot of manual actions: dozens of Git operations across
+IriusRisk specifically sought me out for this critical transformation because they needed someone who could deliver
+results under pressure, not just design solutions. My track record at Adidas, earning the reputation as "the one
+engineer to go for getting things done", combined with proven experience in **release automation**,
+**platform engineering** (Kubernetes, CI/CD, DevEx), and **enterprise-scale transformations** made me the ideal
+candidate to tackle their bottleneck.
+
+They needed a one-man army who could execute strategically while maintaining operational excellence, and my background
+at New Relic and Adidas demonstrated exactly that capability.
+
+**The Challenge**
+
+When I arrived, releases were a **4-week ordeal** requiring a lot of manual actions, dozens of Git operations across
 multiple repositories, complex Jira ticket management, and mandatory CAB meetings with wide attendance.
 
-- Tech Leads spentdays on code freezes, manually propagating dependencies.
+- Tech Leads spent days on code freezes, manually propagating dependencies.
 - The legacy GoCD instance had become a bottleneck.
 - Development teams couldn't manage their own pipelines, creating critical DevOps dependency.
 
 Operating as a **one-man army**, I executed a long-term strategic roadmap while maintaining release success rates during
 the transformation.
 
-**What I Built:**
+**What I Built**
 
 **1. Release Automation — "Release Services"**
 
@@ -200,7 +213,7 @@ need isolated environments to check, test, and share progress with stakeholders.
 This homemade vision has been a critical point shaping my mission: **creating the best DevEx for developers and AI
 agentic coding systems**.
 
-**What This Role Taught Me:**
+**What This Role Taught Me**
 
 Platform Engineering is not about tools, it's about **removing friction** so engineers can focus on delivering value.
 Every abstraction, every automation, every standardized workflow serves one purpose, **accelerating business delivery
@@ -212,6 +225,8 @@ connect technical decisions to business outcomes.
 The for never-coming ephemeral sandboxes initiative represented my belief that, aside for the developer and other
 stakeholders experience, **DevEx must evolve beyond human developers**, preparing for the present, where AI agents are
 becoming first-class citizens in the development workflow.
+
+---
 
 ### New Relic, Inc. | Senior Software Engineer (Core Data Platform)
 
@@ -239,23 +254,26 @@ becoming first-class citizens in the development workflow.
 ![Spring](https://img.shields.io/badge/Spring-Framework-6DB33F?style=flat&logo=spring&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-Query%20Language-E10098?style=flat&logo=graphql&logoColor=white)
 
-**Why I Joined:**
+**The Context**
 
-Back in 2021, monitoring was rising as a critical discipline in software engineering. When New Relic knocked on my door,
-I saw two potential benefits:
+When I joined New Relic in July 2021, the Entity Platform team was in a critical consolidation phase. The company was
+scaling up the platform to process **real-time telemetry data** at unprecedented volumes while simultaneously executing
+an **incipient migration from on-premise infrastructure to AWS cloud**. This dual challenge, maintaining hyper-scale
+performance while migrating infrastructure, required engineers who could handle both distributed systems complexity and
+cloud-native transformation without compromising SLAs for top-tier customers.
 
-* **Level up my understanding** of the state of the art in **Observability** (not just monitoring)
-* **Tackle ultra-high scalability challenges** at a scale I hadn't experienced before
+**Why I Was Chosen**
 
-**The Team:**
+New Relic recruited me for this role based on my proven track record across three key areas.
 
-I had a really good experience working alongside an excellent technical team of anonymous but very talented colleagues,
-with flash collaborations with **Java Champions** like **Jason Clark**, **Benjamin Evans**, and other Silicon Valley
-gurus like **Ron Crocker**.
+**Kafka streaming architecture expertise** from building the Consumer Event Hub at Adidas (handling enterprise-scale
+event processing).
 
-As an interesting coincidence, **Ron Crocker** built for New Relic a **Kafka Clients archetype**, exactly like I did at
-Adidas, integrating the raw Kafka clients with the New Relic agent for observability. I spent hours diving into that
-code, learning new ideas and seeing how he approached the same challenges I had faced.
+**High-performance Java/Kotlin backend development** with profiler-driven optimization skills.
+
+**Platform engineering capabilities** (Kubernetes, AWS, CI/CD pipelines). They needed someone who had already solved
+similar challenges at scale—processing of millions of events per second while managing cloud infrastructure, and my
+experience at Adidas demonstrated exactly that combination of skills.
 
 **The Challenge: Entity Platform — Ingestion Gate Service**
 
@@ -268,7 +286,7 @@ If there's one place where it's **mandatory to work alongside a Profiler** to me
 change, it was this service. Having **restrictive and challenging SLAs with top-tier customers around the world** added
 pressure to only do things well.
 
-**What I Built:**
+**What I Built**
 
 * **Hyper-Scale Engineering:** Engineered optimizations for the **"Synthesis Service"** (platform entry point) to handle
   **hundreds of millions of Kafka events per second**, ensuring strict SLA compliance for top-tier customers
@@ -281,7 +299,17 @@ pressure to only do things well.
 * **Profiler-Driven Development:** Every code change required profiling validation to ensure time complexity didn't
   regress—no deployment without measurable proof
 
-**What This Role Taught Me:**
+**The Team**
+
+I had a really good experience working alongside an excellent technical team of anonymous but very talented colleagues,
+with flash collaborations with **Java Champions** like **Jason Clark**, **Benjamin Evans**, and other Silicon Valley
+gurus like **Ron Crocker**.
+
+As an interesting coincidence, **Ron Crocker** built for New Relic a **Kafka Clients archetype**, exactly like I did at
+Adidas, integrating the raw Kafka clients with the New Relic agent for observability. I spent hours diving into that
+code, learning new ideas and seeing how he approached the same challenges I had faced.
+
+**What This Role Taught Me**
 
 Working at New Relic during the observability boom gave me a premium seat to **hyper-scale engineering practices**.
 The discipline of **profiler-driven development**, where every change must be validated with measurable performance
@@ -290,6 +318,8 @@ data, shaped how I approach optimization problems.
 Collaborating with engineers who built observability tools used by thousands of companies worldwide expanded my
 understanding of what **production-grade scalability** really means and how a well-defined Observability strategy
 involving the full SDLC helps on this matter.
+
+---
 
 ### Adidas | Tech Lead & Streaming Architect (Enterprise Architecture Transformation)
 
@@ -321,7 +351,19 @@ department decided to extend the modern architectural concepts to all domains wi
 The Architecture Directors board approved a wide proposal, and I moved to a **new team created from scratch** with the
 mission of transforming how the Consumer Engagement department's domains communicated with each other.
 
-**The Challenge:**
+**Why I Was Chosen**
+
+Following the successful US launch of Creators Club MVP in under 6 months, the Architecture Directors board specifically
+requested me to lead this enterprise-wide transformation.
+
+My proven track record combined multiple critical capabilities: **streaming architecture expertise** from building the
+Consumer Event Hub, **leadership skills** demonstrated through cross-functional team coordination, and a reputation for
+**delivering under extreme pressure** (as evidenced by the Creators Club success and later the DPP crisis response).
+
+They needed someone who had already proven they could transform broken systems into scalable platforms while leading
+teams through complex technical change.
+
+**The Challenge**
 
 Multiple domains with vastly different stacks were communicating through legacy, highly inefficient approaches. The goal
 was to:
@@ -386,14 +428,14 @@ Platform had failed. With only **3.5 months** to deliver, I had to:
 * **40+ Integrations:** Internal and external services connected via streaming architecture adapters
 * **Cross-Functional Leadership:** Orchestrated a team of SEVEN engineers to deliver in under 4 months
 
-**Impact:**
+**Impact**
 
 * ✅ **Delivered in 3.5 months** — platform went live on schedule
 * 🏆 **Received Spot Bonus** for exceptional delivery under extreme pressure
 * 📊 **40+ integrations** operational with internal and external services
 * 🛡️ **GDPR/CCPA compliance** achieved across all consumer data domains
 
-**Platform Specialist & Internal Consultant:**
+**Platform Specialist & Internal Consultant**
 
 Beyond the architectural transformation, I served as the **de facto platform specialist** for the entire Consumer
 Engagement department:
@@ -412,19 +454,35 @@ Engagement department:
 This hands-on platform work alongside architectural leadership gave me a **unique 360-degree view**, from high-level
 enterprise strategy down to YAML configurations and pipeline DSL scripts.
 
-**Leadership & Team Building:**
+**Leadership & Team Building**
 
 * **Hiring:** Managed onboarding and conducted technical interviews for Senior roles
 * **Team Structure:** Played a key role in shaping the engineering team structure
 * **Knowledge Transfer:** Worked closely with domain teams to onboard them into modern architectural patterns
 
-**The Aftermath:**
+**The Aftermath**
 
 For over a year after DPP delivery, I continued technically leading the stabilization of the Data Privacy Platform while
 advancing the digital transformation work across the department.
 
 This period defined my evolution from **project-focused architect** to **enterprise transformation leader**,
 orchestrating change across multiple domains while delivering critical business initiatives under pressure.
+
+**What This Role Taught Me**
+
+This role elevated my capabilities to enterprise leadership level. **Crisis leadership** became a defining
+skill—delivering the Data Privacy Platform in 3.5 months after an external partner failed taught me to build teams from
+scratch, make complex decisions under uncertainty, and maintain team morale under extreme pressure. **Platform
+engineering at department scale** showed me the difference between project-level and organization-level impact,
+designing abstractions (Jenkins Pipeline Library, Java/Kafka Archetypes) that served all the Consumer Engagement
+department teams simultaneously.
+
+**Cross-domain transformation** revealed how to navigate organizational complexity, each domain had different
+stacks, cultures, and priorities, requiring adaptive communication strategies and incremental change management rather
+than big-bang migrations. This role transformed me from a **project-focused architect** into an **enterprise
+transformation leader**.
+
+---
 
 ### Adidas | Tech Lead & Streaming Architect (Creators Club)
 
@@ -455,7 +513,7 @@ original POC (called "Loyalty Program") launched in Russia by an external partne
 disaster, riddled with race conditions, unable to scale for new "engagements" (loyalty point sources), and completely
 unprepared for major market expansion.
 
-**Why I Was Chosen:**
+**Why I Was Chosen**
 
 Adidas headhunted me during their late-2017 insourcing wave, bringing me in to lead a starting team with one mission,
 make this project scale for the US market launch (Adidas + Reebok).
@@ -463,13 +521,27 @@ make this project scale for the US market launch (Adidas + Reebok).
 I inherited a codebase with an uncooperative external partner, having to reverse engineering the system from source code
 as the only reliable source of truth.
 
-**The Technical Debt:**
+**The Challenge**
+
+The Creators Club presented a perfect storm of challenges. The original Russia POC was a **technical disaster**, two
+monolithic services with hardcoded SQL, no JPA layer, race conditions, and zero scalability.
+
+The **external partner was uncooperative**, forcing me to reverse-engineer the entire system from source code as the
+only reliable truth. Beyond the technical debt, I faced **extreme time pressure**, the US market launch (Adidas +
+Reebok) was the #1 worldwide priority for 2018, with a hard deadline of under 6 months. I had to **lead a team
+from scratch** while simultaneously assessing and rebuilding the platform.
+
+Despite the appearance of an existing codebase, I was effectively **starting from greenfield**, but with the
+added complexity of migrating live business requirements and navigating organizational politics with an external partner
+who didn't want to be replaced.
+
+**The Technical Debt**
 
 The original system consisted of two monolithic services, one using Spring Batch for reading external sources, another
 API for processing and fetching data. The JPA repository layer didn't exist, SQL was hardcoded without design, not even
 leveraging proper JOIN, GROUPING... strategies. It was a fundamentally broken foundation.
 
-**What I Built:**
+**What I Built**
 
 * **Kappa Streaming Architecture:** Extracted business logic from the monolith, redesigned the entire platform around
   Apache Kafka + Spring Boot microservices—each with a specific purpose, layered for scalability
@@ -498,7 +570,7 @@ leveraging proper JOIN, GROUPING... strategies. It was a fundamentally broken fo
   integrated directly into the streaming architecture. Eliminated expensive annual licensing costs while improving rule
   evaluation performance.
 
-**Impact:**
+**Impact**
 
 * **US Market Launch:** Successfully delivered productive MVP in **under 6 months**—the US launch was a major success
 * **Global Scale:** Architecture supported progressive rollouts across Central & South America, Europe, and APAC
@@ -511,10 +583,28 @@ leveraging proper JOIN, GROUPING... strategies. It was a fundamentally broken fo
 * **QA Innovation:** The E2E testing framework became the reference implementation for streaming system testing across
   the organization
 
-**What's Next:**
+**What This Role Taught Me**
+
+This role was my **masterclass in full-spectrum engineering leadership**. **Cloud-native architecture patterns** (AWS,
+Kubernetes) became second nature, this was my first hands-on experience setting up namespaces, monitoring stacks, and
+container orchestration at scale in Kubernetes, defining my career trajectory toward platform engineering.
+
+**Streaming system design at scale** taught me how to resolve race conditions, optimize throughput (>300x improvement),
+and layer microservices for horizontal scalability. **Team leadership and mentorship** shaped my management
+style—particularly mentoring early-career engineers and trainees, helping them grow into productive team members. *
+*Dealing with external partners and technical politics** taught me how to navigate difficult stakeholder relationships
+while maintaining technical integrity.
+
+**Test-driven development for streaming systems** (the E2E testing framework with CDC patterns and MQTT ephemeral
+topics) showed me how to enable true CI/CD for stateful, event-driven architectures. This role proved that I could **own
+the entire SDLC**—from greenfield architecture to production deployment to team leadership—under extreme pressure.
+
+**What's Next**
 
 This success led to my transition into an expert team within the same department, tasked with driving a massive digital
 transformation to enhance domain services communication across the organization.
+
+---
 
 ### Digital Takers (Consultant for Adidas) | Big Data & Platform Engineering
 
@@ -543,7 +633,7 @@ transformation to enhance domain services communication across the organization.
 It is an internal platform engineering initiative to create a central metrics gathering and processing tool, enabling
 VP-level strategic decision-making across the company, especially in logistic distribution.
 
-**The Challenge:**
+**The Context**
 
 The local platform engineering team headhunted me for my experience designing streaming architectures. My work was
 already known in the city after I presented the `Naitfy` project at local conferences. Those were the early days of
@@ -556,7 +646,21 @@ the fit.
 I was chosen by an ex-Spotify backend engineer with solid `Apache Kafka` experience who was leading the project in the
 early stage.
 
-**What I Built:**
+**The Challenge**
+
+The BAM (Business Analytics Monitoring) project's core challenge was building a **central metrics gathering and
+processing platform from scratch** that could enable VP-level strategic decision-making across the organization,
+particularly in logistic distribution.
+
+Technically, this meant processing **hundreds of thousands of events from multiple internal sources** in real-time and
+composing a unified "entity" view in Elasticsearch from heterogeneous event streams. Operationally, working as an
+**external consultant** introduced its own complexities: coordinating communication between the internal platform
+engineering team and **external partners from different countries**, each with their own timezones, cultural working
+styles, and technical expectations. Infrastructure-wise, this was the **pre-cloud abstraction era**, deploying Docker
+Swarm during the Kubernetes vs Swarm wars meant manually deploying ETCD clusters first, then attaching every Docker
+Swarm node, managing everything with bash scripts before "Infrastructure as Code" was a recognized discipline.
+
+**What I Built**
 
 * **Central Processing Topology:** Apache Storm topology processing hundreds of thousands of events from multiple
   internal sources, composing a unified "entity" view in Elasticsearch from heterogeneous event streams
@@ -576,17 +680,39 @@ early stage.
     * Spring Archiving service for time-based Elasticsearch index lifecycle management
     * Multiple integration services pushing events to other domain areas
 
-**Impact:**
+**Impact**
 
 This POC extended the use of Elasticsearch and Apache Kafka to the entire organization. The decision shaped my incoming
 years, first by insourcing me directly into Adidas, and secondly by establishing me as a **Streaming Architecture
 Expert + Spring Tech Lead** for the following years to come.
 
-### Hermes (E-commerce Platform)
+**What This Role Taught Me**
+
+This role was my **introduction to platform engineering before "Platform Engineering" was a recognized discipline**. *
+*Event-Driven Architecture evangelization** became a core skill—deploying the company's first central Kafka cluster and
+Elasticsearch cluster meant not just building the technology, but showing teams how to adopt and integrate with these
+new patterns.
+
+**Full ecosystem ownership** shaped my full-stack mindset: I owned everything from the Apache Storm
+processing topology to the AngularJS UI, Spring backend services, API Gateway (Spring + Zuul), and even the
+infrastructure scripts. **Infrastructure as Code (before it had a name)** taught me the value of reproducible,
+scriptable infrastructure—even if it was bash scripts, the principle of "infrastructure defined in code" became
+foundational.
+
+**Platform engineering at scale** showed me how central platforms can transform organizational capabilities—this POC
+extended Kafka and Elasticsearch usage across the entire organization, directly leading to my insourcing at Adidas and
+establishing my reputation as a **Streaming Architecture Expert + Spring Tech Lead** for years to come.
+
+---
+
+### Hermes (E-commerce Platform) | Hiberus Tecnologia
 
 | Key                    | Value                                          |
 |------------------------|------------------------------------------------|
 | **Organization**       | [Hiberus Tecnologia](https://www.hiberus.com/) |
+| **Role**               | Software Engineer / Dev Lead                   |
+| **Duration**           | Mid 2010s                                      |
+| **Location**           | Zaragoza, Spain                                |
 | **Project Status**     | Completed — Enterprise migration               |
 | **Personal Relevance** | ⭐⭐                                             |
 
@@ -598,21 +724,86 @@ Expert + Spring Tech Lead** for the following years to come.
 ![Apache Tomcat](https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=flat&logo=apachetomcat&logoColor=black)
 ![On-Prem](https://img.shields.io/badge/On--Prem-Infrastructure-5C5C5C?style=flat)
 
-The local company internalized me because of my work on ProgramacionJ2EE.com. They were seeking someone with experience
-in Spring Framework to modernize their homemade e-commerce platform.
+**The Context**
 
-There, I contributed through different stages:
+Hiberus Tecnologia is a local Zaragoza company that it was managing with Hermes approximately
+**15 e-commerce applications** built on a homemade platform called Hermes. The company was struggling with
+**legacy Struts** that had become difficult to maintain, extend, and integrate with modern requirements.
 
-1. Rebuilt the application's core from Struts to Spring Framework 3
-2. Migrated the ongoing customer base Hermes applications to Spring Framework
-3. Maintained and supported the most relevant customer Hermes applications
-4. Built a seminar to reskill other Java teams throughout the entire organization
+They needed someone with deep Spring Framework expertise to lead a comprehensive modernization effort while maintaining
+operational stability for their customer base.
 
-### Naitfy (Social Network)
+**Why I Was Chosen**
+
+Hiberus specifically recruited me because of my **ProgramacionJ2EE.com** educational platform, which had established me
+as a **Spring Framework authority** in the local tech community.
+
+They needed three critical capabilities, **Spring Framework expertise** (demonstrated through my detailed tutorials and
+courses), **teaching ability** (they knew I could reskill their existing teams through seminars and knowledge transfer),
+and **local reputation** in the Zaragoza tech scene (my presentations and educational work made me a known quantity).
+
+This combination of technical depth and communication skills made me the ideal candidate to lead both the technical
+migration and the organizational reskilling effort.
+
+**The Challenge**
+
+The migration presented multiple simultaneous challenges.
+
+- **Technical complexity**: migrating from Struts to Spring Framework 3 required deep understanding of both frameworks
+  to ensure proper architectural patterns, not just superficial code translation.
+- **Operational risk**: migrating **live customer applications without downtime** was non-negotiable—these were
+  revenue-generating e-commerce platforms serving real customers.
+- **Organizational change**: training **four Java teams** unfamiliar with Spring Framework, helping them transition from
+  Struts mindset to Spring's dependency injection, AOP, and MVC patterns.
+- **Legacy code understanding**: working with **limited documentation** and deciphering business logic embedded in years
+  of Struts-specific patterns and hardcoded SQL.
+
+**What I Built**
+
+1. **Core Application Rebuild**: Rebuilt the Hermes e-commerce platform's core from Struts to Spring Framework 3,
+   establishing proper layered architecture with service layer transactionality, JPA repository patterns, and Spring MVC
+   for web components.
+
+2. **Customer Base Migration**: Migrated the ongoing customer base Hermes applications to Spring Framework, ensuring
+   zero downtime during transitions and maintaining all existing business functionality.
+
+3. **Maintenance & Support**: Maintained and supported the most relevant customer Hermes applications, serving as the
+   go-to expert for critical issues and complex feature implementations.
+
+4. **Reskilling Seminar**: Built and delivered a comprehensive seminar to reskill Java teams throughout the entire
+   organization, transitioning them from Struts to Spring Framework mindset and practices.
+
+**Impact**
+
+* ✅ **All new customer applications** were built on Spring Framework from the start
+* ✅ **Most relevant existing customers** were successfully migrated to the modernized platform
+* ✅ **4 Java teams** were reskilled and became productive with Spring Framework
+* ✅ **Promoted to Dev Lead** for the main customer using the Hermes platform
+* ✅ **Established Spring Framework** as the standard for future Java development at the company
+
+**What This Role Taught Me**
+
+This role was my **introduction to enterprise application modernization at scale**. **Framework migration patterns**
+became a repeatable skill—understanding how to systematically transition from one architectural paradigm (Struts) to
+another (Spring) while preserving business logic and minimizing risk.
+
+**Teaching and mentoring at corporate scale**showed me the difference between individual knowledge transfer and
+organizational reskilling—designing seminars that served multiple teams with different skill levels and learning paces.
+
+**Enterprise application maintainability** taught me the value of proper architectural patterns: dependency injection
+for testability, layered architecture for separation of concerns, and JPA for maintainable data access. This role also
+marked my **transition from individual contributor to tech lead**, managing the main customer relationship and making
+architectural decisions that affected the entire organization's Java development trajectory.
+
+---
+
+### Naitfy (Social Network) | Freelance
 
 | Key                    | Value                               |
 |------------------------|-------------------------------------|
 | **Organization**       | Freelance                           |
+| **Role**               | Founder & Full-Stack Engineer       |
+| **Duration**           | Early 2010s (3+ years)              |
 | **Project Status**     | Completed — 3+ years of development |
 | **Personal Relevance** | ⭐⭐⭐⭐⭐                               |
 
@@ -705,7 +896,16 @@ purposes:
     * Handled authentication for static/media resources
     * Dedicated load balancing for high-bandwidth endpoints
 
-**Why This Matters:**
+**What I Built**
+
+* **Full-Stack Social Platform:** Android app + AngularJS web frontend + Spring Framework microservices backend
+* **Distributed Systems Architecture:** Hazelcast datagrid, dual message broker setup (RabbitMQ + EMQTT), GlusterFS
+  distributed storage
+* **Geohashing System:** Location-based matching and discovery using Elasticsearch geo-queries
+* **CI/CD Pipeline:** Jenkins-based continuous integration and deployment before cloud-native tools existed
+* **Infrastructure Provisioning:** Manual Docker Swarm cluster setup with ETCD, pre-Kubernetes orchestration
+
+**Why This Matters**
 
 Naitfy was my **real university**, more than three years of development dealing with technology from every friction
 point:
@@ -719,12 +919,45 @@ point:
 The personal dedication Naitfy required was, indeed, the main reason for decommissioning `ProgramacionJ2EE.com`, a
 trade-off I made to build something ambitious and technically challenging.
 
-### Yizz Framework (OOP PHP Framework)
+**What This Role Taught Me**
+
+Naitfy was my **real university**—more than three years of hands-on learning across every layer of the software
+engineering stack.
+
+**Distributed systems trade-offs** became visceral, I lived the CAP theorem daily, choosing eventual
+consistency for user sessions (Hazelcast) while maintaining strong consistency for user data (MariaDB), understanding
+that every architectural decision has consequences.
+
+**Full-stack ownership patterns** taught me how frontend decisions (Android SDK, AngularJS) cascade into backend API
+design, and how backend architecture (microservices, messaging) affects user experience—there's no "someone else's
+problem" when you own the entire SDLC.
+
+**Infrastructure resilience** was learned through pain: dealing with node failures in Docker Swarm, recovering from ETCD
+cluster issues, managing distributed state across Hazelcast nodes, and understanding that monitoring isn't optional—it's
+survival.
+
+**Technology selection trade-offs** shaped my engineering judgment: RabbitMQ for general messaging (mature ecosystem) vs
+EMQTT for high-performance pub/sub (specialized MQTT broker), Elasticsearch for geohashing (geo-queries) vs MariaDB for
+ACID transactions (relational integrity), GlusterFS for distributed storage (horizontal scalability) vs traditional
+NAS (simplicity).
+
+**Personal project sustainability** taught me the hardest lesson: balancing ambition with resources,
+knowing when a project's personal cost exceeds its value, and making the painful decision to decommission
+ProgramacionJ2EE.com to focus on Naitfy—a trade-off I still reflect on today.
+
+This project forged my **bullet-proof engineering mindset**: when you own everything from design to deployment, there's
+no hiding—every decision, every trade-off, every failure is yours to learn from.
+
+---
+
+### Yizz Framework (OOP PHP Framework) | Freelance
 
 | Key                    | Value                                              |
 |------------------------|----------------------------------------------------|
 | **Source**             | [GitHub](https://github.com/danipl/Yizz-Framework) |
 | **Organization**       | Freelance                                          |
+| **Role**               | Framework Creator                                  |
+| **Duration**           | Early 2010s                                        |
 | **Project Status**     | Archived — Learning project                        |
 | **Personal Relevance** | ⭐⭐                                                 |
 
@@ -732,23 +965,82 @@ trade-off I made to build something ambitious and technically challenging.
 ![HTML](https://img.shields.io/badge/HTML-5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-3-1572B6?style=flat&logo=css3&logoColor=white)
 
-Inspired by finding some Spring Framework 2.5 workflow while developing with PHP, this was a custom object-oriented PHP
-framework that I built from scratch to learn and experiment with OOP principles in PHP 5.
+**The Context**
 
-The framework proved valuable across several freelance projects throughout the mid-2010s. It powered multiple
-public-facing websites and served as the foundation for an internal dental clinic management application that handled
-day-to-day operations.
+In the early 2010s, the PHP ecosystem lacked mature object-oriented frameworks that could provide a development
+experience similar to Spring Framework. Most PHP web development was still procedural or relied on basic MVC frameworks
+without proper architectural patterns. I was freelancing full-time at this point, building custom websites and
+applications for clients, and I needed a framework that could bring **Spring-like discipline** to PHP development—proper
+separation of concerns, testability, and maintainability.
 
-### ProgramacionJ2EE.com (Educational Platform)
+**The Challenge**
+
+Building Yizz was an exercise in constraint-driven innovation. **PHP 5 limitations** meant working without modern type
+hints, limited OOP features (no traits, basic interfaces), and a language culture still rooted in procedural patterns. *
+*No good reference implementations** existed in the PHP ecosystem—most frameworks were either too simplistic or tried to
+copy Java patterns without understanding the underlying principles.
+
+**Learning framework design patterns from scratch** meant studying Spring Framework's architecture and translating
+concepts like Dependency Injection, AOP, and MVC into PHP idioms.
+
+**Balancing flexibility with convention** was critical, the framework needed to be flexible enough for diverse
+client projects (e-commerce, management apps, landing pages) while providing enough convention to reduce boilerplate.
+
+The core challenge was **bringing a Spring-like development experience to PHP**.
+
+**What I Built**
+
+- **MVC Pattern Implementation**: Built a Spring MVC-inspired architecture with clear separation between Models (
+  business logic and data), Views (presentation layer), and Controllers (request handling and flow control). This was
+  revolutionary for PHP at the time, moving away from mixed PHP/HTML spaghetti code.
+
+- **Routing System**: Developed a flexible URL routing mechanism that mapped HTTP requests to controller actions,
+  supporting parameter extraction and route constraints—years before Laravel popularized similar patterns in the PHP
+  community.
+
+- **Shared Core Artifacts**: Designed a modular architecture where global entities and reusable components shipped as
+  dedicated artifacts, similar to how Spring modules work—each project could import dependencies and extend with custom
+  implementations.
+
+- **Front Controller Pattern**: Implemented a centralized entry point for all requests, handling bootstrap, dependency
+  resolution, and request dispatching—following enterprise Java patterns that were absent in PHP.
+
+**Impact**
+
+* ✅ **Powered ~6 freelance projects** across diverse domains (e-commerce sites, management applications, public-facing
+  websites)
+* ✅ **Dental clinic management application** used the framework for years, handling day-to-day operations reliably
+* ✅ **Public GitHub repository** remains available at https://github.com/danipl/Yizz-Framework as a learning artifact
+* ✅ **Proved PHP could support OOP patterns** at a professional level, years before Laravel and Symfony matured
+
+**What This Role Taught Me**
+
+Building it was my **masterclass in OOP principles applied in practice**.
+
+**Framework design patterns** became tangible: I learned how Spring's architecture worked by recreating it—understanding
+why certain patterns exist (Front Controller for centralized handling, MVC for separation of concerns, DI for
+testability).
+
+This project also taught me **the value of learning by building**: reading about Spring patterns was useful, but
+implementing them in a different language cemented my understanding of *why* those patterns exist and *when* to apply
+them.
+
+---
+
+### ProgramacionJ2EE.com (Educational Platform) | Freelance
 
 | Key                    | Value                          |
 |------------------------|--------------------------------|
 | **Organization**       | Freelance                      |
+| **Role**               | Founder & Content Creator      |
+| **Duration**           | Early 2000s – 2010s (7 years)  |
 | **Project Status**     | Completed — 7 years of service |
 | **Personal Relevance** | ⭐⭐⭐⭐⭐                          |
 
 ![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?style=flat&logo=wordpress&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white)
+
+**The Context**
 
 The early 2000s were a transformative period for technology, marked by the rise of the internet and the shift from
 traditional client-server architectures to web applications and modern development practices. In the Spanish-speaking
@@ -760,6 +1052,57 @@ meaningful and practical resource for learning these technologies without barrie
 |:----------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------:|
 | <img src="./media/programacionj2ee/oldest_version.png" alt="Oldest version" style="max-height: 250px; width: auto;" /> | <img src="./media/programacionj2ee/newest_version.png" alt="Newest version" style="max-height: 250px; width: auto;" /> |
 
+**The Challenge**
+
+Building ProgramacionJ2EE.com presented multiple simultaneous challenges.
+
+**Technical translation**: creating content in Spanish required translating complex Java/Spring concepts that had no
+established Spanish terminology—coining terms that would be clear and accurate.
+
+**Platform building**: setting up and maintaining the WordPress platform itself, customizing it for code examples,
+syntax highlighting, and technical content presentation.
+
+**Growing from zero**: building an audience without social media algorithms or established networks—relying purely on
+SEO, word-of-mouth, and content quality.
+
+**Content velocity**: keeping tutorials updated as Spring Framework evolved rapidly (2.0, 2.5, 3.0),
+ensuring examples remained relevant and functional.
+
+**Community scaling**: as the site grew to **thousands of users**, moderation demands increased beyond what I could
+sustain alone—managing comments, answering questions, and maintaining quality while balancing personal time and evolving
+interests.
+
+**What I Built**
+
+- **Spring Framework Master Course**: A comprehensive, structured tutorial series covering Spring from basics to
+  advanced topics—becoming the **definitive Spanish-language resource** for Spring Framework learning. This was the main
+  pillar of the site.
+
+- **"Píldoras Java" (Java Pills)**: Short, focused tutorials on specific Java/Spring ecosystem topics—bite-sized lessons
+  that developers could consume quickly and apply immediately. These became the site's signature format.
+
+- **Topic-Specific Tutorial Series**: Created **7-10 distinct tutorial series** covering specialized areas: Servlets and
+  JSPs, JDBC (database access), EJB (Enterprise JavaBeans), Web Services (SOAP/REST), Struts, Hibernate, and application
+  servers (Tomcat, JBoss, GlassFish).
+
+- **WordPress Comment System**: Implemented a community comment system for each tutorial, enabling readers to ask
+  questions, share solutions, and help each other—creating a **learning community** rather than just a static content
+  site.
+
+- **Code Examples & Downloadable Projects**: Provided working code samples and complete projects that readers could
+  download, run, and modify—following the "learning by doing" philosophy that defined my teaching approach.
+
+**Impact**
+
+* ✅ **100K+ monthly visitors** at peak—massive reach for Spanish-speaking Java developers worldwide
+* ✅ **Google Rank #1** organically for "Spring Framework" searches in Spanish—dominating search results for years
+* ✅ **Thousands of community members** engaged through comments, returning readers, and word-of-mouth referrals
+* ✅ **7+ years of continuous service**—sustained content creation and community engagement from early 2000s to 2010s
+* ✅ **Career catalyst**: The site's visibility led prominent colleagues in the local Zaragoza tech scene to notice my
+  work, directly resulting in my **first corporate role at Hiberus Tecnologia**
+* ✅ **Filled a critical gap**: Provided accessible, practical Spring Framework education in Spanish when **zero
+  alternatives existed**
+
 Personally, I consider the decommissioning of `ProgramacionJ2EE.com` my biggest mistake. It positioned itself
 organically at Google Rank 1 for Spring Framework searches in Spanish.
 
@@ -769,6 +1112,30 @@ to recognize its value, so I made the decision to shut it down.
 
 Beyond that, `ProgramacionJ2EE.com` was noticed by prominent colleagues in my local area, which led them to bring me on
 board as part of their team, immersing me in the corporate world by the first time.
+
+**What This Role Taught Me**
+
+Running ProgramacionJ2EE.com was my **masterclass in technical communication and community building**.
+
+**Technical writing and explanation skills** became refined: explaining complex Spring concepts (Dependency Injection,
+AOP, MVC) in accessible Spanish required deep understanding—you can't teach what you don't truly grasp.
+
+**Community building and moderation** taught me how online communities grow, engage, and eventually demand more than one
+person can give—scaling moderation, managing toxic comments, and knowing when to step back.
+
+**SEO and content marketing** became intuitive: achieving Google Rank #1 without paid promotion taught me keyword
+research, content structure, internal linking, and the value of consistent, high-quality content.
+
+**Teaching pedagogy** shaped my career: understanding how developers learn (step-by-step, with working examples, not
+abstract theory), pacing complexity, and anticipating common mistakes.
+
+This role also taught me **the business value of content**: the site's organic reach and career opportunities it
+generated proved that sharing knowledge isn't just altruistic—it's a strategic investment.
+
+The decommissioning remains my **biggest regret**, I lacked the business vision to recognize its value, monetization
+potential, or delegation options. This mistake shaped my later approach to recognizing and preserving valuable assets.
+
+**External Recognition**
 
 But well, let's Google Gemini explain what it was.
 
@@ -836,11 +1203,15 @@ sites like those serve learners today:
 - Stack Overflow
 ```
 
-### DestrozatuMente.com (Web Application Game)
+---
+
+### DestrozatuMente.com (Web Application Game) | Freelance
 
 | Key                    | Value                                       |
 |------------------------|---------------------------------------------|
 | **Organization**       | Freelance                                   |
+| **Role**               | Creator & Full-Stack Developer              |
+| **Duration**           | Mid 2000s                                   |
 | **Project Status**     | Completed — University Final Degree Project |
 | **Personal Relevance** | ⭐⭐                                          |
 
@@ -848,6 +1219,67 @@ sites like those serve learners today:
 ![Spring Framework](https://img.shields.io/badge/Spring%20Framework-2.5-6DB33F?style=flat&logo=spring&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white)
 ![JForum 3](https://img.shields.io/badge/JForum-3-orange?style=flat)
+
+**The Context**
+
+In the mid-2000s, during my Computer Science studies at the **University of Zaragoza**, I needed a Final Degree Project
+that would demonstrate both technical skill and entrepreneurial vision. I had a personal idea for an online chained
+guessing game—a web application that would combine game mechanics with social community features. Rather than building a
+traditional academic project, I wanted to create something that felt like a real product, with actual users, community
+features, and a potential business model. This project would become **DestrozatuMente.com**—my first "business" attempt
+and, more importantly, my **first Spring Framework project**.
+
+**The Challenge**
+
+DestrozatuMente.com presented multiple first-time challenges.
+
+**First Spring Framework project**: learning Spring 2.5 from scratch while building a production-ready application—no
+tutorials, no courses, just official documentation and trial-and-error.
+
+**Game logic complexity**: designing and implementing chained guessing mechanics that were engaging, fair, and
+scalable—each game session had multiple players, progressive hints, scoring systems, and time-based constraints.
+
+**Third-party integration**: natively integrating **JForum 3** (by @rafaelsteil) into the Spring application, requiring
+deep understanding of both the forum's architecture and Spring's extension points.
+
+**University requirements**: balancing academic expectations (documentation, evaluation criteria, formal presentation)
+with personal vision (building something fun, usable, and potentially monetizable).
+
+**Full-stack ownership**: everything from database design (MySQL) to Spring MVC controllers, service layer business
+logic, JSP views, and forum integration was my responsibility.
+
+**What I Built**
+
+- **Chained Guessing Game Engine**: Developed the core game mechanics where players progressed through chained word
+  puzzles, each clue leading to the next, with scoring based on speed and accuracy. The system managed multiple
+  concurrent game sessions with different player groups.
+
+- **Spring Framework 2.5 Architecture**: Built a layered Spring application with MVC pattern for web handling, service
+  layer for business logic (game rules, scoring, user management), and data access layer for MySQL persistence. This was
+  cutting-edge for university projects at the time.
+
+- **Admin System**: Created an administrative backend that allowed effortless creation and management of chained
+  games—defining word sequences, hint progression, difficulty levels, and game templates without touching code.
+
+- **JForum 3 Integration**: Natively integrated the JForum 3 community forum into the application, enabling players to
+  discuss strategies, share experiences, and build a community around the game. This was the first Spring-native JForum
+  integration of its kind.
+
+- **User Management System**: Implemented user accounts, authentication, leaderboards, and game history tracking—full
+  CRUD operations with Spring's dependency injection and transaction management.
+
+**Impact**
+
+* ✅ **First Spring Framework application** presented as part of a Final Degree Project in the **history of the
+  University of Zaragoza**—introducing Spring to the university's academic curriculum
+* ✅ **Significant recognition** during final project evaluation—professors acknowledged the technical depth and
+  real-world applicability of the Spring-based architecture
+* ✅ **Pioneered modern framework adoption** at the university—after my presentation, Spring Framework became a
+  recognized technology for future Final Degree Projects
+* ✅ **Proof of concept for Spring in Spanish academia**: demonstrated that enterprise Java frameworks could be taught
+  and applied in university settings, not just in corporate environments
+* ✅ **Personal milestone**: marked my transition from student to professional engineer, with a portfolio piece that
+  demonstrated production-ready Spring skills
 
 An online chained guessing game. It was my first "business" attempt and, more importantly, my first Spring Framework
 project.
@@ -857,6 +1289,28 @@ It introduced Spring Framework for the first time as part of some Final Degree P
 the [University of Zaragoza](https://www.unizar.es/).
 
 The project natively integrated [JForum 3](https://github.com/rafaelsteil/jforum3) by @rafaelsteil.
+
+**What This Role Taught Me**
+
+DestrozatuMente.com was my **introduction to enterprise framework development**.
+
+**First enterprise framework (Spring2.5)** taught me the value of architectural patterns: dependency injection for
+testability, MVC for separation of concerns, and transaction management for data integrity.
+
+**Full-stack development** showed me how all layers connect—database schema design affects service layer logic, which
+affects controller design, which affects user experience.
+
+**University-level project management** taught me how to balance academic requirements (documentation,
+formal evaluation) with engineering excellence (clean code, working features, scalability).
+
+**Third-party integration** (JForum 3) demonstrated how to extend applications with external libraries—understanding
+their architecture, configuring integration points, and handling version compatibility.
+
+This project also taught me **the value of pioneering**: being the first to introduce a technology (Spring) to an
+environment (university) creates opportunities and establishes credibility.
+
+The recognition from professors and the historical distinction of being the first Spring-based Final Project opened
+doors and validated my self-taught Spring expertise.
 
 ---
 
