@@ -84,9 +84,156 @@ I remain deeply hands-on with technical implementation:
 * **Corporate Work:** Identifying operational friction points and implementing standardization and best practices—with
   creativity and a results-oriented mindset
 
-## Professional Journey
+---
+
+## Engineering Craft in the Age of AI
+
+My approach to software engineering is evolving rapidly alongside AI capabilities. While AI assistants are transforming
+how we code, I believe **fundamentals must remain intact** to maintain control over what we build. Here's how I navigate
+this new era.
+
+### Preserving My Core Engineering Skills
+
+I strongly believe that while code is becoming a commodity with AI assistants, **engineering fundamentals should remain
+intact** to keep control of what we're building with AI.
+
+At the end of 2025, I started a personal repository  
+**[CodingChallenge-Python](https://github.com/danipl/CodingChallenge-Python)**, where I tackle algorithm challenges
+regularly. I use a **custom Gemini Gem** deliberately crafted to support this journey, it designs the challenges and
+builds the Python classes with pytest scaffolding, so I can focus on enjoying the problem-solving itself.
+
+This practice keeps my problem-solving muscles sharp while leveraging AI for the boilerplate.
+
+> **Find the prompt:** [HERE](./media/Whiteboard%20Algo%20Coach%20For%20Python.md)
+
+### My Delivery Workflow
+
+Working in this new AI era requires a disciplined three-phase approach. The trap many fall into is accepting "working
+output" without questioning the structural cost.
+
+#### Phase 1: Specification & Definition
+
+**From task description and acceptance criteria to precise specification.**
+
+AI coding agents deliver functionality, but they often lack **structural vision**. Delegating tasks without revision
+gives a false sense of success, the feature works, but it comes with a hidden cost in design debt that will cause pain
+in the future.
+
+A good specification **stretches the funnel** of the AI coding agent's freedom during delivery, ensuring it implements
+what we're projecting in mind. This is critical especially during and after the early stages of projects, where all the
+bootstrapping is being done and the foundational architecture is being established.
+
+**My approach:**
+
+- Translate vague requirements into precise, actionable specifications
+- Define architectural constraints and patterns upfront
+- Set clear boundaries for AI agent autonomy
+- Review and refine before any implementation begins
+
+<img src="./media/workflow/Specification.png" alt="Precie Specification" height="400">
+
+#### Phase 2: Implementation (Human-in-the-Loop)
+
+**Coding / AI-Assisted Coding / Live Coding / Whatever You Want to Call It**
+
+This is the implementation phase, where **TDD has become even more important than before**, and where human revision is
+mandatory.
+
+As engineers, we must **remain in the loop**. An AI planning system can do great work on complex specifications, but it
+can also loop endlessly without success on something that feels easy to humans. Getting in the loop, using the IDE for a
+while, and helping establish foundations is mandatory.
+
+**Being pragmatic:** For easy, single-responsibility microservices, I'm often faster than AI agents when prototyping
+Spring applications with some services—just using inline code completion and quick AI assistance. No need to waste 300K
+tokens (and drying lakes... just kidding :D).
+
+**My approach:**
+
+- Write tests first (TDD is non-negotiable, by prompting it is OK)
+- Intervene when AI agents loop on "simple" problems
+- Use inline AI assistance for boilerplate and scaffolding
+- Step in personally for foundational code and critical paths when it's necessary
+- Review every line and the CONTEXT before committing
+
+#### Phase 3: Quality Assurance
+
+**The safety net that makes AI-assisted development sustainable.**
+
+When you have a good implementation flow following TDD, unit testing shines. AI agents remain unpredictable, and
+mastering this third stage is crucial to avoid breaking existing functionality.
+
+**My approach:**
+
+- Comprehensive unit test coverage (non-negotiable)
+- Integration tests for critical paths
+- Automated CI/CD validation
+- Manual review of AI-generated code before merge
+
+### My Tooling Philosophy
+
+I manage personal subscriptions to Google and Alibaba models. As of today, **Anthropic models are the best** especially
+for backend implementations, but honestly, I believe **Google is going to win the AI battle**.
+
+**Lock-in and patience**, rather than moving from one provider to another, staying committed is often the winning
+strategy, especially when dealing with budgets coming from your pocket. At the enterprise level? I use whatever it
+takes.
+
+**Current setup:**
+
+- **Google AI** — Primary provider (long-term bet)
+- **Alibaba AI Coding** — Best cost/performance ratio (legacy Lite subscription, no longer purchasable)
+- **Anthropic (through Google AI)** — Reserved for exceptional cases where their models bring something uniquely better
+
+### Local Development Setup
+
+Sitting back and watching what happens between Google and the open-source ecosystem, right now I use a **multi-tool
+environment** that I hope to consolidate into one place eventually.
+
+| Tool                                         | Purpose            | Why                                                                                                                                                                                                                                                                                                                           |
+|----------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **IntelliJ Ultimate** (with AI subscription) | Primary IDE        | Top-tier inline AI Assistant + all-in-one environment (terminal, database, SSH, Spring, Kubernetes, Docker integrations)                                                                                                                                                                                                      |
+| **OpenCode + OhMyOpenCode**                  | Agentic AI         | Run from IntelliJ terminal for unified experience. I use Alibaba AI Coding models — excellent performance. I skipped the US marketing hype and grabbed one of the no-longer-purchasable Alibaba AI Coding Lite subscriptions... which, as of today, is widely the best cost/performance AI coding subscription in the market. |
+| **Antigravity**                              | Multi-model access | For using Google and Anthropic models in exceptional cases where Anthropic may bring something better.                                                                                                                                                                                                                        |
+
+<img src="./media/workflow/OpenCode.png" alt="OpenCode" height="400">
+
+### AI-Assisted Team Collaboration
+
+Many coding tasks are trivial or close to trivial. For my personal projects, I have an **AI coding assistant** that
+bootstraps implementations from the very beginning—coding the solution and opening a PR automatically.
+
+<img src="./media/workflow/Agentic%20AI%20Code%20Assistance.png" alt="Agentic AI Assistance" height="400">
+
+Communication happens through a **Telegram channel**, where **OpenClaw** (my AI assistant system) uses a Telegram bot
+that all collaborators in the group can use to interact with the AI.
+
+<img src="./media/workflow/Telegram%20OpenClaw.png" alt="Telegram OpenClaw" height="400">
+
+**The bot was taught to:**
+
+- **Manage YouTrack boards** through MCP integration — creates tickets with specifications by summarizing conversations
+  in the Telegram channel. Tickets can be refined by interacting with the same bot.
+- **Access GitHub Org repositories** with restricted collaboration rights.
+
+This setup helps me and my teammates get right into the context of implementations without wasting time finding the
+proper places for changes while switching context. Many times it's only about reviewing the implementation; other times
+I need to get in the loop; and a few times, start from scratch.
+
+**Overall, the capacity increase is huge.**
+
+### Summary: My Philosophy
+
+> **AI is a force multiplier, not a replacement for engineering judgment (so far).**
+
+- **Fundamentals first** — TDD, clean architecture, and problem-solving skills remain non-negotiable
+- **Human-in-the-loop** — AI agents amplify capability, but human oversight ensures quality
+- **Pragmatic tooling** — Use the right model for the right job, balance cost vs. performance
+- **Specification-driven** — Clear requirements prevent AI from optimizing for the wrong outcomes
+- **Team amplification** — AI assistants should increase team capacity, not create dependency
 
 ---
+
+## Professional Journey
 
 ### IriusRisk | Staff Platform & Release Engineer (DevEx Lead)
 
