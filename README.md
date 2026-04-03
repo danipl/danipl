@@ -653,12 +653,15 @@ processing platform from scratch** that could enable VP-level strategic decision
 particularly in logistic distribution.
 
 Technically, this meant processing **hundreds of thousands of events from multiple internal sources** in real-time and
-composing a unified "entity" view in Elasticsearch from heterogeneous event streams. Operationally, working as an
-**external consultant** introduced its own complexities: coordinating communication between the internal platform
-engineering team and **external partners from different countries**, each with their own timezones, cultural working
-styles, and technical expectations. Infrastructure-wise, this was the **pre-cloud abstraction era**, deploying Docker
-Swarm during the Kubernetes vs Swarm wars meant manually deploying ETCD clusters first, then attaching every Docker
-Swarm node, managing everything with bash scripts before "Infrastructure as Code" was a recognized discipline.
+composing a unified "entity" view in Elasticsearch from heterogeneous event streams.
+
+Operationally, working as an **external consultant** introduced its own complexities: coordinating communication between
+the internal platform engineering team and **external partners from different countries**, each with their own
+timezones, cultural working styles, and technical expectations.
+
+Infrastructure-wise, this was the **pre-cloud abstraction era**, deploying Docker Swarm during the Kubernetes vs Swarm
+wars meant manually deploying ETCD clusters first, then attaching every Docker Swarm node, managing everything with bash
+scripts before "Infrastructure as Code" was a recognized discipline.
 
 **What I Built**
 
