@@ -86,6 +86,133 @@ I remain deeply hands-on with technical implementation:
 
 ## Professional Journey
 
+### IriusRisk | Staff Platform & Release Engineer (DevEx Lead)
+
+| Key              | Value                                 |
+|------------------|---------------------------------------|
+| **Organization** | IriusRisk                             |
+| **Role**         | Staff Platform & Release Engineer     |
+| **Duration**     | December 2022 – Present               |
+| **Location**     | Remote / Zaragoza, Spain              |
+| **Status**       | ✅ Completed — Platform Transformation |
+| **Relevance**    | ⭐⭐⭐⭐⭐                                 |
+
+![Bitbucket Pipelines](https://img.shields.io/badge/Bitbucket%20Pipelines-CI%2FCD-0052CC?style=flat&logo=bitbucket&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Infrastructure-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Agent%20Architecture-2496ED?style=flat&logo=docker&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-Build%20Automation-02303A?style=flat&logo=gradle&logoColor=white)
+![GitOps](https://img.shields.io/badge/GitOps-Release%20Flow-FF6600?style=flat)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-Observability-C8C8C8?style=flat&logo=opentelemetry&logoColor=black)
+![Java](https://img.shields.io/badge/Java-Ecosystem-007396?style=flat&logo=java&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-K8s%20Deployment-0F1689?style=flat&logo=helm&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=flat&logo=argo&logoColor=white)
+
+**The Context**
+
+IriusRisk was experiencing a high growth rate, with a 200% YoY ARR increase. The company was expanding rapidly, but
+DevEx, especially the release process, had become a critical bottleneck, causing delays, service quality issues, and
+customer dissatisfaction.
+
+The company reached out with a critical first mandate, fix the software delivery process as quickly as possible to serve
+world-class customers by improving Deployment Frequency and Lead Time to Change, while elevating the DevEx of a software
+engineering team that was starting from a greenfield state.
+
+**The Challenge:**
+
+When I arrived, releases were a **4-week ordeal** requiring a lot of manual actions: dozens of Git operations across
+multiple repositories, complex Jira ticket management, and mandatory CAB meetings with wide attendance.
+
+- Tech Leads spentdays on code freezes, manually propagating dependencies.
+- The legacy GoCD instance had become a bottleneck.
+- Development teams couldn't manage their own pipelines, creating critical DevOps dependency.
+
+Operating as a **one-man army**, I executed a long-term strategic roadmap while maintaining release success rates during
+the transformation.
+
+**What I Built:**
+
+**1. Release Automation — "Release Services"**
+
+Developed a comprehensive tool automating the entire release orchestration:
+
+* All Git actions (branching, tagging) across repositories
+* Jira ticket creation and release note drafting
+* Cross-repository dependency management
+
+**Impact:** Release orchestration from **~4 hours to ~5 minutes**. Manual interactions from **hundreds of steps to <10
+clicks**.
+
+**2. Release Lifecycle Transformation**
+
+Established the Release Squad from scratch, enforcing **Trunk-Based Development** and **Release Flow** strategies:
+
+* Replaced complex legacy git branch strategies with simplified workflows
+* Eliminated LTS friction—onboarding new LTS versions from **days to 1 minute**
+* Streamlined Change Advisory Board (CAB)—transformed from bottleneck to high-certainty confirmation step
+
+**Impact:** Full release lifecycle from **4 weeks to 1 day**. Hotfixes delivered in hours. Received **financial award**
+for impact.
+
+**3. CI/CD Modernization — GoCD to Bitbucket Pipelines**
+
+Led migration from legacy GoCD to Bitbucket Pipelines:
+
+* Executed POC, designed standardized pipelines across all repositories
+* Collaborated with DevOps to implement self-hosted autoscaling solution (cost minimization)
+* Decommissioned legacy GoCD environment
+
+**Impact:** Development teams gained **full autonomy** over their CI/CD workflows. Eliminated DevOps dependency.
+Increased DevOps capacity by removing legacy plugin maintenance.
+
+**4. Docker Agents Architecture (V1 → V2)**
+
+* **V1:** Encapsulated tooling for Java build/publish operations, ensuring consistent build environments
+* **V2:** Strategic two-layer architecture—base layer (common tooling, business logic) + tech-specific layer (Java,
+  Node, Python)
+
+**Impact:** Standardized pipeline execution across the entire organization regardless of technology stack. Drastically
+increased project bootstrapping speed. Single point of evolution for platform capabilities.
+
+**5. Developer Experience Acceleration**
+
+* Pipeline templates reducing project bootstrapping from **days to hours**
+* Automated dependency propagation—Tech Leads no longer manually execute builds or library upgrades
+* Self-service capabilities eliminating operational burden
+
+**Impact:** Returned valuable capacity to Tech Leads. Reduced code propagation time from **days to minutes**.
+Significantly decreased Time to Market (TTM).
+
+**6. Observability & Governance**
+
+* Designed foundational principles for engineering standards and observability (o11y) strategy
+* Implemented DORA metrics dashboards for business visibility
+* Streamlined CAB processes to facilitate faster decision-making
+
+**The Future: DevEx for Humans and AI Agents**
+
+**Ephemeral Sandboxes Environment (Q2 2026):**
+
+Before the ThreatModeler acquisition, I led the vision for ephemeral sandboxes aligned with the coming multi-tenant
+scenario. As platform complexity grows with more microservices, developers, and incipient **agentic coding systems**,
+need isolated environments to check, test, and share progress with stakeholders.
+
+This homemade vision has been a critical point shaping my mission: **creating the best DevEx for developers and AI
+agentic coding systems**.
+
+**What This Role Taught Me:**
+
+Platform Engineering is not about tools, it's about **removing friction** so engineers can focus on delivering value.
+Every abstraction, every automation, every standardized workflow serves one purpose, **accelerating business delivery
+while reducing cognitive load**.
+
+Working as a one-man army at the very beginning taught me to prioritize ruthlessly, execute strategically, and always
+connect technical decisions to business outcomes.
+
+The for never-coming ephemeral sandboxes initiative represented my belief that, aside for the developer and other
+stakeholders experience, **DevEx must evolve beyond human developers**, preparing for the present, where AI agents are
+becoming first-class citizens in the development workflow.
+
 ### New Relic, Inc. | Senior Software Engineer (Core Data Platform)
 
 | Key              | Value                              |
@@ -101,6 +228,8 @@ I remain deeply hands-on with technical implementation:
 ![Kotlin](https://img.shields.io/badge/Kotlin-Backend-7F52FF?style=flat&logo=kotlin&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Hundreds%20Millions%2Fsec-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![JProfiler](https://img.shields.io/badge/JProfiler-Performance%20Profiling-009688?style=flat)
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Infrastructure-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-K8s%20Package%20Manager-0F1689?style=flat&logo=helm&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=flat&logo=argo&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat&logo=terraform&logoColor=white)
@@ -176,6 +305,8 @@ involving the full SDLC helps on this matter.
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Event%20Hub-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Microservices-6DB33F?style=flat&logo=spring&logoColor=white)
 ![DDD](https://img.shields.io/badge/DDD-Domain--Driven%20Design-009688?style=flat)
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Infrastructure-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-Pipeline%20Library-D24939?style=flat&logo=jenkins&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-Archetype-007396?style=flat&logo=java&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-Clients%20Archetype-231F20?style=flat&logo=apachekafka&logoColor=white)
