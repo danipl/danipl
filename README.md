@@ -86,6 +86,82 @@ I remain deeply hands-on with technical implementation:
 
 ## Professional Journey
 
+### New Relic, Inc. | Senior Software Engineer (Core Data Platform)
+
+| Key              | Value                              |
+|------------------|------------------------------------|
+| **Organization** | New Relic, Inc.                    |
+| **Role**         | Senior Software Engineer           |
+| **Duration**     | July 2021 – December 2022          |
+| **Location**     | Remote / Zaragoza, Spain           |
+| **Status**       | ✅ Completed — Hyper-Scale Platform |
+| **Relevance**    | ⭐⭐⭐⭐⭐                              |
+
+![Java](https://img.shields.io/badge/Java-High%20Performance-007396?style=flat&logo=java&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-Backend-7F52FF?style=flat&logo=kotlin&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Hundreds%20Millions%2Fsec-231F20?style=flat&logo=apachekafka&logoColor=white)
+![JProfiler](https://img.shields.io/badge/JProfiler-Performance%20Profiling-009688?style=flat)
+![Helm](https://img.shields.io/badge/Helm-K8s%20Package%20Manager-0F1689?style=flat&logo=helm&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=flat&logo=argo&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-Search%20Analytics-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Dropwizard](https://img.shields.io/badge/Dropwizard-Microservices-000000?style=flat)
+![Dagger](https://img.shields.io/badge/Dagger-DI%20Framework-8A2BE2?style=flat)
+![Spring](https://img.shields.io/badge/Spring-Framework-6DB33F?style=flat&logo=spring&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-Query%20Language-E10098?style=flat&logo=graphql&logoColor=white)
+
+**Why I Joined:**
+
+Back in 2021, monitoring was rising as a critical discipline in software engineering. When New Relic knocked on my door,
+I saw two potential benefits:
+
+* **Level up my understanding** of the state of the art in **Observability** (not just monitoring)
+* **Tackle ultra-high scalability challenges** at a scale I hadn't experienced before
+
+**The Team:**
+
+I had a really good experience working alongside an excellent technical team of anonymous but very talented colleagues,
+with flash collaborations with **Java Champions** like **Jason Clark**, **Benjamin Evans**, and other Silicon Valley
+gurus like **Ron Crocker**.
+
+As an interesting coincidence, **Ron Crocker** built for New Relic a **Kafka Clients archetype**, exactly like I did at
+Adidas, integrating the raw Kafka clients with the New Relic agent for observability. I spent hours diving into that
+code, learning new ideas and seeing how he approached the same challenges I had faced.
+
+**The Challenge: Entity Platform — Ingestion Gate Service**
+
+My main responsibility was the evolution and maintainability of the **gate ingestion service** for the Entity Platform
+team, the domain area responsible for **synthesizing entities from raw telemetry datapoints** and managing the
+relationships among them.
+
+This was the entry point for the entire platform, where hundreds of millions of Kafka events per second flowed through.
+If there's one place where it's **mandatory to work alongside a Profiler** to measure time complexity after any code
+change, it was this service. Having **restrictive and challenging SLAs with top-tier customers around the world** added
+pressure to only do things well.
+
+**What I Built:**
+
+* **Hyper-Scale Engineering:** Engineered optimizations for the **"Synthesis Service"** (platform entry point) to handle
+  **hundreds of millions of Kafka events per second**, ensuring strict SLA compliance for top-tier customers
+* **Streaming Architecture:** Redesigned streaming pipeline components to process **complex entity relationships** with
+  extreme time efficiency, every micro-optimization mattered at this scale
+* **Schema Governance:** Managed the public repository
+  [`newrelic/entity-definitions`](https://github.com/newrelic/entity-definitions) defining the synthesis shape of
+  entities, serving as a critical integration point for the platform
+* **Community Collaboration:** Created synthesis rules alongside the community—open governance for entity definitions
+* **Profiler-Driven Development:** Every code change required profiling validation to ensure time complexity didn't
+  regress—no deployment without measurable proof
+
+**What This Role Taught Me:**
+
+Working at New Relic during the observability boom gave me a premium seat to **hyper-scale engineering practices**.
+The discipline of **profiler-driven development**, where every change must be validated with measurable performance
+data, shaped how I approach optimization problems.
+
+Collaborating with engineers who built observability tools used by thousands of companies worldwide expanded my
+understanding of what **production-grade scalability** really means and how a well-defined Observability strategy
+involving the full SDLC helps on this matter.
+
 ### Adidas | Tech Lead & Streaming Architect (Enterprise Architecture Transformation)
 
 | Key              | Value                                        |
