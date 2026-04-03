@@ -613,6 +613,7 @@ transformation to enhance domain services communication across the organization.
 | **Organization**       | Digital Takers (Consultant for Adidas) |
 | **Role**               | Big Data & Platform Engineer           |
 | **Duration**           | July 2016 – November 2017              |
+| **Location**           | Remote / Zaragoza, Spain               |
 | **Project Status**     | Running in Production                  |
 | **Personal Relevance** | ⭐⭐⭐                                    |
 
@@ -715,7 +716,7 @@ establishing my reputation as a **Streaming Architecture Expert + Spring Tech Le
 | **Organization**       | [Hiberus Tecnologia](https://www.hiberus.com/) |
 | **Role**               | Software Engineer / Dev Lead                   |
 | **Duration**           | Mid 2010s                                      |
-| **Location**           | Zaragoza, Spain                                |
+| **Location**           | Remote / Zaragoza, Spain                       |
 | **Project Status**     | Completed — Enterprise migration               |
 | **Personal Relevance** | ⭐⭐                                             |
 
