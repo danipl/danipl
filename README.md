@@ -190,7 +190,22 @@ environment** that I hope to consolidate into one place eventually.
 | **OpenCode + OhMyOpenCode**                  | Agentic AI         | Run from IntelliJ terminal for unified experience. I use Alibaba AI Coding models — excellent performance. I skipped the US marketing hype and grabbed one of the no-longer-purchasable Alibaba AI Coding Lite subscriptions... which, as of today, is widely the best cost/performance AI coding subscription in the market. |
 | **Antigravity**                              | Multi-model access | For using Google and Anthropic models in exceptional cases where Anthropic may bring something better.                                                                                                                                                                                                                        |
 
-<img src="./media/workflow/OpenCode.png" alt="OpenCode" height="400" style="display: block; margin: 0 auto;">
+<img src="./media/workflow/OpenCode.png" alt="OpenCode" height="400">
+
+#### Token Efficiency
+
+Token efficiency is crucial for AI coding, as it directly impacts the cost and performance of AI-assisted development.
+By optimizing token usage, developers can maximize the effectiveness of their AI tools while minimizing expenses.
+
+This is particularly important for large-scale projects or when working with limited budgets.
+
+| Tool                                                | Purpose                   | Why                                                                                                                          |
+|-----------------------------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [Rtk-ai](https://github.com/rtk-ai/rtk)             | Input tokens cleaning     | Optimizes input tokens by removing unnecessary content before sending to AI models, reducing costs and improving performance |
+| [Caveman](https://github.com/JuliusBrussee/caveman) | Output tokens performance | Instructs the LLM to use compressed communication patterns, reducing token usage while preserving information quality        |
+
+I consider this strategically important, so I decided to [collaborate](https://github.com/JuliusBrussee/caveman/pull/67)
+in [Caveman](https://github.com/JuliusBrussee/caveman) to make it compatible with OpenCode.
 
 ### 🤝 AI-Assisted Team Collaboration
 
