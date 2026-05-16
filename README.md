@@ -176,7 +176,7 @@ takes.
 **Current setup:**
 
 - **Google AI** — Primary provider (long-term bet)
-- **Alibaba AI Coding** — Best cost/performance ratio (legacy Lite subscription, no longer purchasable)
+- **Opencode Go** — Best cost/performance ratio.
 - **Anthropic (through Google AI)** — Reserved for exceptional cases where their models bring something uniquely better
 
 ### 💻 Local Development Setup
@@ -184,11 +184,11 @@ takes.
 Sitting back and watching what happens between Google and the open-source ecosystem, right now I use a **multi-tool
 environment** that I hope to consolidate into one place eventually.
 
-| Tool                                         | Purpose            | Why                                                                                                                                                                                                                                                                                                                           |
-|----------------------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **IntelliJ Ultimate** (with AI subscription) | Primary IDE        | Top-tier inline AI Assistant + all-in-one environment (terminal, database, SSH, Spring, Kubernetes, Docker integrations)                                                                                                                                                                                                      |
-| **OpenCode + OhMyOpenCode**                  | Agentic AI         | Run from IntelliJ terminal for unified experience. I use Alibaba AI Coding models — excellent performance. I skipped the US marketing hype and grabbed one of the no-longer-purchasable Alibaba AI Coding Lite subscriptions... which, as of today, is widely the best cost/performance AI coding subscription in the market. |
-| **Antigravity**                              | Multi-model access | For using Google and Anthropic models in exceptional cases where Anthropic may bring something better.                                                                                                                                                                                                                        |
+| Tool                                         | Purpose            | Why                                                                                                                      |
+|----------------------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **IntelliJ Ultimate** (with AI subscription) | Primary IDE        | Top-tier inline AI Assistant + all-in-one environment (terminal, database, SSH, Spring, Kubernetes, Docker integrations) |
+| **OpenCode + OhMyOpenCode**                  | Agentic AI         | Run from IntelliJ terminal for unified experience. I use Opencode Go models — excellent performance.                     |
+| **Antigravity**                              | Multi-model access | For using Google and Anthropic models in exceptional cases where Anthropic may bring something better.                   |
 
 <img src="./media/workflow/OpenCode.png" alt="OpenCode" height="400">
 
@@ -203,9 +203,6 @@ This is particularly important for large-scale projects or when working with lim
 |-----------------------------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | [Rtk-ai](https://github.com/rtk-ai/rtk)             | Input tokens cleaning     | Optimizes input tokens by removing unnecessary content before sending to AI models, reducing costs and improving performance |
 | [Caveman](https://github.com/JuliusBrussee/caveman) | Output tokens performance | Instructs the LLM to use compressed communication patterns, reducing token usage while preserving information quality        |
-
-I consider this strategically important, so I decided to [collaborate](https://github.com/JuliusBrussee/caveman/pull/67)
-in [Caveman](https://github.com/JuliusBrussee/caveman) to make it compatible with OpenCode.
 
 ### 🤝 AI-Assisted Team Collaboration
 
