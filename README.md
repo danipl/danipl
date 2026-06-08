@@ -199,10 +199,22 @@ By optimizing token usage, developers can maximize the effectiveness of their AI
 
 This is particularly important for large-scale projects or when working with limited budgets.
 
-| Tool                                                | Purpose                   | Why                                                                                                                          |
-|-----------------------------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| [Rtk-ai](https://github.com/rtk-ai/rtk)             | Input tokens cleaning     | Optimizes input tokens by removing unnecessary content before sending to AI models, reducing costs and improving performance |
-| [Caveman](https://github.com/JuliusBrussee/caveman) | Output tokens performance | Instructs the LLM to use compressed communication patterns, reducing token usage while preserving information quality        |
+| Tool                                                  | Purpose                   | Why                                                                                                                                     |
+|-------------------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| [Rtk-ai](https://github.com/rtk-ai/rtk)               | Input tokens cleaning     | Optimizes input tokens by removing unnecessary content before sending to AI models, reducing costs and improving performance            |
+| [Caveman](https://github.com/JuliusBrussee/caveman)   | Output tokens performance | Instructs the LLM to use compressed communication patterns, reducing token usage while preserving information quality                   |
+| [Codegraph](https://github.com/colbymchenry/codegraph) | Codebase knowledge graph | Pre-indexes symbols, call graphs, and imports, replacing expensive grep/read discovery loops (~47% fewer tokens, ~58% fewer tool calls) |
+
+#### LSP Integration — Static Analysis as a Safety Net
+
+Beyond token optimization tools, I leverage **Language Server Protocol (LSP)** servers alongside OpenCode to catch
+issues before they reach review. LSP provides real-time diagnostics, type errors, unused imports, unreachable code,
+and API misuse, directly from the language's own compiler or analyzer.
+
+**Why it matters:** AI agents are fundamentally pattern matching engines, they produce syntactically correct code that
+may still violate type contracts or break existing references. LSP catches these structural issues immediately,
+complementing the semantic checks that tests provide. It's the fastest feedback loop available for no builds, no tests run,
+just instant compiler-level validation.
 
 ### 🤝 AI-Assisted Team Collaboration
 
